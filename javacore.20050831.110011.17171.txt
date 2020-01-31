@@ -1,0 +1,1951 @@
+NULL           ------------------------------------------------------------------------
+0SECTION       TITLE subcomponent dump routine
+NULL           ===============================
+1TISIGINFO     signal 11 received 
+1TIDATETIME    Date:                 2005/08/31 at 11:00:11
+1TIFILENAME    Javacore filename:    /home/1800/u_neffge/private/java/1. Moderationstag/Figuren/javacore.20050831.110011.17171.txt
+NULL           ------------------------------------------------------------------------
+0SECTION       XHPI subcomponent dump routine
+NULL           ==============================
+1HPTIME        Wed Aug 31 11:00:11 2005
+1HPSIGRECV     SIGSEGV received in ?? at 0x430d89f2 in /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libjvm.so. Processing terminated.
+1HPFULLVERSION J2RE 1.4.2 IBM build cxia321420-20040626
+NULL           
+1HPOPENV       Operating Environment
+NULL           ---------------------
+2HPHOSTNAME    Host             : alexandria.(none)
+2HPOSLEVEL     OS Level         : 2.6.11.11.#1 SMP Fri Jun 24 16:44:14 CEST 2005
+2HPLIBCVER     glibc Version    : 2.3.5
+2HPCPUS        Processors -
+3HPARCH          Architecture     : (not implemented)
+3HPNUMCPUS       How Many         : (not implemented)
+3HPCPUSENABLED   Enabled          : 2
+NULL           
+1HPMEMINFO     Memory Info
+NULL           -----------
+2HPMEMLINE     MemTotal:      2075412 kB
+2HPMEMLINE     MemFree:         48068 kB
+2HPMEMLINE     Buffers:        474968 kB
+2HPMEMLINE     Cached:         942972 kB
+2HPMEMLINE     SwapCached:      49160 kB
+2HPMEMLINE     Active:         862660 kB
+2HPMEMLINE     Inactive:       899880 kB
+2HPMEMLINE     HighTotal:     1179584 kB
+2HPMEMLINE     HighFree:          896 kB
+2HPMEMLINE     LowTotal:       895828 kB
+2HPMEMLINE     LowFree:         47172 kB
+2HPMEMLINE     SwapTotal:      987988 kB
+2HPMEMLINE     SwapFree:       905200 kB
+2HPMEMLINE     Dirty:              16 kB
+2HPMEMLINE     Writeback:           0 kB
+2HPMEMLINE     Mapped:         403292 kB
+2HPMEMLINE     Slab:           250536 kB
+2HPMEMLINE     CommitLimit:   2025692 kB
+2HPMEMLINE     Committed_AS:  1745240 kB
+2HPMEMLINE     PageTables:       4132 kB
+2HPMEMLINE     VmallocTotal:   114680 kB
+2HPMEMLINE     VmallocUsed:      3164 kB
+2HPMEMLINE     VmallocChunk:   111384 kB
+NULL           
+1HPUSERLIMITS  User Limits (in bytes except for NOFILE and NPROC) -
+NULL           -----------
+2HPUSERLIMIT   RLIMIT_FSIZE   : infinity
+2HPUSERLIMIT   RLIMIT_DATA    : infinity
+2HPUSERLIMIT   RLIMIT_STACK   : 8388608
+2HPUSERLIMIT   RLIMIT_CORE    : 0
+2HPUSERLIMIT   RLIMIT_NOFILE  : 1024
+2HPUSERLIMIT   RLIMIT_NPROC   : 16383
+NULL           
+1HPSIGHANDLERS JVM Signal Handlers
+NULL           -------------------
+2HPSIGHANDLER  HUP            : unknown handler
+2HPSIGHANDLER  INT            : unknown handler
+2HPSIGHANDLER  QUIT           : unknown handler
+2HPSIGHANDLER  ILL            : unknown handler
+2HPSIGHANDLER  TRAP           : unknown handler
+2HPSIGHANDLER  ABRT           : unknown handler
+2HPSIGHANDLER  FPE            : unknown handler
+2HPSIGHANDLER  KILL           : default handler
+2HPSIGHANDLER  BUS            : unknown handler
+2HPSIGHANDLER  SEGV           : unknown handler
+2HPSIGHANDLER  PIPE           : ignored
+2HPSIGHANDLER  ALRM           : default handler
+2HPSIGHANDLER  USR1           : unknown handler
+2HPSIGHANDLER  USR2           : unknown handler
+2HPSIGHANDLER  TERM           : unknown handler
+2HPSIGHANDLER  CHLD           : default handler
+NULL           
+1HPSIGHANDLERS Chained Signal Handlers
+NULL           -----------------------
+2HPSIGHANDLER  HUP            : unknown handler
+2HPSIGHANDLER  INT            : unknown handler
+2HPSIGHANDLER  QUIT           : unknown handler
+2HPSIGHANDLER  ILL            : unknown handler
+2HPSIGHANDLER  TRAP           : unknown handler
+2HPSIGHANDLER  ABRT           : unknown handler
+2HPSIGHANDLER  FPE            : unknown handler
+2HPSIGHANDLER  KILL           : default handler
+2HPSIGHANDLER  BUS            : unknown handler
+2HPSIGHANDLER  SEGV           : unknown handler
+2HPSIGHANDLER  PIPE           : ignored
+2HPSIGHANDLER  ALRM           : default handler
+2HPSIGHANDLER  USR1           : unknown handler
+2HPSIGHANDLER  USR2           : unknown handler
+2HPSIGHANDLER  TERM           : unknown handler
+2HPSIGHANDLER  CHLD           : default handler
+NULL           
+1HPENVVARS     Environment Variables
+NULL           ---------------------
+2HPENVVAR      MANPATH=/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/i686-pc-linux-gnu/2.15.92.0.2/man:/usr/share/gcc-data/i686-pc-linux-gnu/3.3.5-20050130/man:/usr/qt/3/doc/man
+2HPENVVAR      DM_CONTROL=/var/run/xdmctl
+2HPENVVAR      HOSTNAME=alexandria
+2HPENVVAR      SHELL=/bin/bash
+2HPENVVAR      XDM_MANAGED=/var/run/xdmctl/xdmctl-ws-57.cojobo.net:0,method=classic
+2HPENVVAR      QTDIR=/usr/qt/3
+2HPENVVAR      MOZILLA_FIVE_HOME=/usr/lib/mozilla
+2HPENVVAR      ANT_HOME=/usr/share/ant-core
+2HPENVVAR      USER=u_neffge
+2HPENVVAR      SGML_CATALOG_FILES=/etc/sgml/sgml-docbook.cat:/etc/sgml/openjade-1.3.2.cat:/etc/sgml/sgml-ent.cat:/etc/sgml/xml-simple-docbook-1.0.cat:/etc/sgml/xml-simple-docbook-4.1.2.4.cat:/etc/sgml/sgml-docbook-3.0.cat:/etc/sgml/sgml-docbook-3.1.cat:/etc/sgml/sgml-docbook-4.0.cat:/etc/sgml/sgml-docbook-4.1.cat:/etc/sgml/sgml-docbook-4.2.cat:/etc/sgml/sgml-lite.cat:/etc/sgml/dsssl-docbook-stylesheets.cat
+2HPENVVAR      PRELINK_PATH_MASK=/usr/lib/gstreamer-0.8:/lib/modules:/usr/lib/locale:/usr/lib/wine:/usr/lib/valgrind:*.la:*.png:*.py:*.pl:*.pm:*.sh:*.xml:*.xslt:*.a:*.js
+2HPENVVAR      LS_COLORS=
+2HPENVVAR      GUILE_LOAD_PATH=/usr/share/guile/1.6
+2HPENVVAR      GDK_USE_XFT=1
+2HPENVVAR      KDEDIR=/usr/kde/3.3
+2HPENVVAR      CONFIG_PROTECT_MASK=/etc/gconf /etc/terminfo
+2HPENVVAR      PAGER=/usr/bin/less
+2HPENVVAR      XINITRC=/etc/X11/xinit/xinitrc
+2HPENVVAR      PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/i686-pc-linux-gnu/gcc-bin/3.3.5-20050130:/opt/stuffit/bin:/opt/ibm-jdk-bin-1.4.2/bin:/opt/ibm-jdk-bin-1.4.2/jre/bin:/usr/qt/3/bin:/usr/kde/3.4/bin:/usr/games/bin:/opt/limewire
+2HPENVVAR      DESKTOP_SESSION=default
+2HPENVVAR      PWD=/home/1800/u_neffge
+2HPENVVAR      JAVA_HOME=/opt/ibm-jdk-bin-1.4.2
+2HPENVVAR      JAVAC=/opt/ibm-jdk-bin-1.4.2/bin/javac
+2HPENVVAR      EDITOR=/bin/nano
+2HPENVVAR      KDE_IS_PRELINKED=1
+2HPENVVAR      KDEDIRS=/usr
+2HPENVVAR      QMAKESPEC=linux-g++
+2HPENVVAR      KDE_MALLOC=1
+2HPENVVAR      HOME=/home/1800/u_neffge
+2HPENVVAR      SHLVL=1
+2HPENVVAR      JDK_HOME=/opt/ibm-jdk-bin-1.4.2
+2HPENVVAR      PRELINK_PATH=
+2HPENVVAR      LOGNAME=u_neffge
+2HPENVVAR      PYTHONPATH=/usr/lib/portage/pym
+2HPENVVAR      LESS=-R
+2HPENVVAR      CVS_RSH=ssh
+2HPENVVAR      GCC_SPECS=
+2HPENVVAR      CLASSPATH=.
+2HPENVVAR      LESSOPEN=|lesspipe.sh %s
+2HPENVVAR      INFOPATH=/usr/share/info:/usr/share/binutils-data/i686-pc-linux-gnu/2.15.92.0.2/info:/usr/share/gcc-data/i686-pc-linux-gnu/3.3.5-20050130/info:/usr/share/info/emacs-21
+2HPENVVAR      DISPLAY=ws-57.cojobo.net:0
+2HPENVVAR      OPENGL_PROFILE=xorg-x11
+2HPENVVAR      SANE_CONFIG_DIR=/etc/sane.d
+2HPENVVAR      CONFIG_PROTECT=/var/bind /usr/lib/mozilla/defaults/pref /usr/lib/X11/xkb /usr/kde/3.4/share/config /usr/kde/3.4/env /usr/kde/3.4/shutdown /usr/share/texmf/tex/generic/config/ /usr/share/texmf/tex/platex/config/ /usr/share/texmf/dvips/config/ /usr/share/texmf/dvipdfm/config/ /usr/share/texmf/xdvi/ /usr/share/config
+2HPENVVAR      G_BROKEN_FILENAMES=1
+2HPENVVAR      _=/opt/ibm-jdk-bin-1.4.2/bin/java
+2HPENVVAR      LD_LIBRARY_PATH=/opt/ibm-jdk-bin-1.4.2/bin/../jre/bin:/opt/ibm-jdk-bin-1.4.2/jre/bin/classic:/opt/ibm-jdk-bin-1.4.2/jre/bin
+2HPENVVAR      IBM_JAVA_COMMAND_LINE=/opt/ibm-jdk-bin-1.4.2/bin/../jre/bin/java -classpath /usr/share/bluej-bin/lib/junit.jar:/home/1800/u_neffge/private/java/test/simpleio2.jar:/home/1800/u_neffge/public_html/java/SimpleInput.jar:/usr/share/bluej-bin/lib/bluejcore.jar:/usr/share/bluej-bin/lib/bluejeditor.jar:/usr/share/bluej-bin/lib/bluejext.jar:/usr/share/bluej-bin/lib/antlr.jar:/usr/share/bluej-bin/lib/MRJ141Stubs.jar:/opt/ibm-jdk-bin-1.4.2/bin/../lib/tools.jar:/usr/share/bluej-bin/lib/bluej.jar:/home/1800/u_neffge/. -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y bluej.runtime.ExecServer
+NULL           
+1HPMEMORYMAP   Memory Map
+NULL           ----------
+2HPMEMMAPLINE  08047000-0804f000 r-xp 00000000 03:01 4868510    /opt/ibm-jdk-bin-1.4.2/jre/bin/java
+2HPMEMMAPLINE  0804f000-08050000 rwxp 00007000 03:01 4868510    /opt/ibm-jdk-bin-1.4.2/jre/bin/java
+2HPMEMMAPLINE  08050000-084ba000 rwxp 08050000 00:00 0 
+2HPMEMMAPLINE  10000000-30000000 rwxp 10000000 00:00 0 
+2HPMEMMAPLINE  420c1000-420d6000 r-xp 00000000 03:01 10493234   /lib/ld-2.3.5.so
+2HPMEMMAPLINE  420d6000-420d7000 r-xp 00014000 03:01 10493234   /lib/ld-2.3.5.so
+2HPMEMMAPLINE  420d7000-420d8000 rwxp 00015000 03:01 10493234   /lib/ld-2.3.5.so
+2HPMEMMAPLINE  420da000-421ec000 r-xp 00000000 03:01 10493660   /lib/tls/libc-2.3.5.so
+2HPMEMMAPLINE  421ec000-421ed000 r-xp 00111000 03:01 10493660   /lib/tls/libc-2.3.5.so
+2HPMEMMAPLINE  421ed000-421f0000 rwxp 00112000 03:01 10493660   /lib/tls/libc-2.3.5.so
+2HPMEMMAPLINE  421f0000-421f2000 rwxp 421f0000 00:00 0 
+2HPMEMMAPLINE  421f4000-42215000 r-xp 00000000 03:01 10493709   /lib/tls/libm-2.3.5.so
+2HPMEMMAPLINE  42215000-42217000 rwxp 00020000 03:01 10493709   /lib/tls/libm-2.3.5.so
+2HPMEMMAPLINE  42219000-4221b000 r-xp 00000000 03:01 10493840   /lib/libdl-2.3.5.so
+2HPMEMMAPLINE  4221b000-4221d000 rwxp 00001000 03:01 10493840   /lib/libdl-2.3.5.so
+2HPMEMMAPLINE  4222f000-422fb000 r-xp 00000000 03:01 10493980   /usr/lib/libX11.so.6.2
+2HPMEMMAPLINE  422fb000-422ff000 rwxp 000cc000 03:01 10493980   /usr/lib/libX11.so.6.2
+2HPMEMMAPLINE  42301000-42310000 r-xp 00000000 03:01 10237133   /lib/tls/libpthread-2.3.5.so
+2HPMEMMAPLINE  42310000-42311000 r-xp 0000e000 03:01 10237133   /lib/tls/libpthread-2.3.5.so
+2HPMEMMAPLINE  42311000-42312000 rwxp 0000f000 03:01 10237133   /lib/tls/libpthread-2.3.5.so
+2HPMEMMAPLINE  42312000-42314000 rwxp 42312000 00:00 0 
+2HPMEMMAPLINE  42316000-42325000 r-xp 00000000 03:01 10493989   /usr/lib/libXext.so.6.4
+2HPMEMMAPLINE  42325000-42326000 rwxp 0000e000 03:01 10493989   /usr/lib/libXext.so.6.4
+2HPMEMMAPLINE  42328000-42369000 r-xp 00000000 03:01 4751279    /usr/lib/libstdc++-3-libc6.2-2-2.10.0.so
+2HPMEMMAPLINE  42369000-4237d000 rwxp 00040000 03:01 4751279    /usr/lib/libstdc++-3-libc6.2-2-2.10.0.so
+2HPMEMMAPLINE  4237d000-4237f000 rwxp 4237d000 00:00 0 
+2HPMEMMAPLINE  423ca000-423df000 r-xp 00000000 03:01 10310997   /usr/lib/libICE.so.6.3
+2HPMEMMAPLINE  423df000-423e0000 rwxp 00014000 03:01 10310997   /usr/lib/libICE.so.6.3
+2HPMEMMAPLINE  423e0000-423e2000 rwxp 423e0000 00:00 0 
+2HPMEMMAPLINE  423ee000-42408000 r-xp 00000000 03:01 7929003    /opt/ibm-jdk-bin-1.4.2/jre/bin/libjava.so
+2HPMEMMAPLINE  42408000-4240a000 rwxp 00019000 03:01 7929003    /opt/ibm-jdk-bin-1.4.2/jre/bin/libjava.so
+2HPMEMMAPLINE  4240c000-4240e000 r-xp 00000000 03:01 7731528    /opt/ibm-jdk-bin-1.4.2/jre/bin/libdbgmalloc.so
+2HPMEMMAPLINE  4240e000-42410000 rwxp 00001000 03:01 7731528    /opt/ibm-jdk-bin-1.4.2/jre/bin/libdbgmalloc.so
+2HPMEMMAPLINE  4241b000-42423000 r-xp 00000000 03:01 10494006   /usr/lib/libSM.so.6.0
+2HPMEMMAPLINE  42423000-42424000 rwxp 00007000 03:01 10494006   /usr/lib/libSM.so.6.0
+2HPMEMMAPLINE  42426000-4242d000 r-xp 00000000 03:01 10494013   /usr/lib/libXrender.so.1.2.2
+2HPMEMMAPLINE  4242d000-4242e000 rwxp 00006000 03:01 10494013   /usr/lib/libXrender.so.1.2.2
+2HPMEMMAPLINE  42446000-4244d000 r-xp 00000000 03:01 10432993   /usr/lib/libXp.so.6.2
+2HPMEMMAPLINE  4244d000-4244e000 rwxp 00006000 03:01 10432993   /usr/lib/libXp.so.6.2
+2HPMEMMAPLINE  42450000-42452000 r-xp 00000000 03:01 4783733    /opt/ibm-jdk-bin-1.4.2/jre/bin/libjsig.so
+2HPMEMMAPLINE  42452000-42453000 rwxp 00001000 03:01 4783733    /opt/ibm-jdk-bin-1.4.2/jre/bin/libjsig.so
+2HPMEMMAPLINE  42455000-426c8000 r-xp 00000000 03:01 122959     /opt/ibm-jdk-bin-1.4.2/jre/bin/libawt.so
+2HPMEMMAPLINE  426c8000-426e2000 rwxp 00272000 03:01 122959     /opt/ibm-jdk-bin-1.4.2/jre/bin/libawt.so
+2HPMEMMAPLINE  426e2000-42707000 rwxp 426e2000 00:00 0 
+2HPMEMMAPLINE  4270d000-4272d000 r-xp 00000000 03:01 138690     /opt/ibm-jdk-bin-1.4.2/jre/bin/libhpi.so
+2HPMEMMAPLINE  4272d000-4272f000 rwxp 0001f000 03:01 138690     /opt/ibm-jdk-bin-1.4.2/jre/bin/libhpi.so
+2HPMEMMAPLINE  4272f000-42730000 rwxp 4272f000 00:00 0 
+2HPMEMMAPLINE  42f45000-42f56000 r-xp 00000000 03:01 10494026   /lib/libnsl-2.3.5.so
+2HPMEMMAPLINE  42f56000-42f58000 rwxp 00010000 03:01 10494026   /lib/libnsl-2.3.5.so
+2HPMEMMAPLINE  42f58000-42f5a000 rwxp 42f58000 00:00 0 
+2HPMEMMAPLINE  42f5c000-43191000 r-xp 00000000 03:01 7032356    /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libjvm.so
+2HPMEMMAPLINE  43191000-43192000 ---p 00235000 03:01 7032356    /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libjvm.so
+2HPMEMMAPLINE  43192000-4319d000 rwxp 00235000 03:01 7032356    /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libjvm.so
+2HPMEMMAPLINE  4319d000-431b4000 rwxp 4319d000 00:00 0 
+2HPMEMMAPLINE  439d0000-439e5000 r-xp 00000000 03:01 10231353   /usr/lib/libXmu.so.6.2
+2HPMEMMAPLINE  439e5000-439e6000 rwxp 00015000 03:01 10231353   /usr/lib/libXmu.so.6.2
+2HPMEMMAPLINE  43b57000-43bac000 r-xp 00000000 03:01 349758     /usr/lib/libXt.so.6.0
+2HPMEMMAPLINE  43bac000-43bb0000 rwxp 00054000 03:01 349758     /usr/lib/libXt.so.6.0
+2HPMEMMAPLINE  43bc1000-43bc6000 r-xp 00000000 03:01 5633136    /usr/lib/libXtst.so.6.1
+2HPMEMMAPLINE  43bc6000-43bc7000 rwxp 00004000 03:01 5633136    /usr/lib/libXtst.so.6.1
+2HPMEMMAPLINE  b4edf000-b5161000 rwxp b4edf000 00:00 0 
+2HPMEMMAPLINE  b5161000-b5162000 ---p b5161000 00:00 0 
+2HPMEMMAPLINE  b5162000-b516a000 rwxp b5162000 00:00 0 
+2HPMEMMAPLINE  b516a000-b516b000 ---p b516a000 00:00 0 
+2HPMEMMAPLINE  b516b000-b51a2000 rwxp b516b000 00:00 0 
+2HPMEMMAPLINE  b51a2000-b51a3000 ---p b51a2000 00:00 0 
+2HPMEMMAPLINE  b51a3000-b51ab000 rwxp b51a3000 00:00 0 
+2HPMEMMAPLINE  b51ab000-b51ac000 ---p b51ab000 00:00 0 
+2HPMEMMAPLINE  b51ac000-b5246000 rwxp b51ac000 00:00 0 
+2HPMEMMAPLINE  b5246000-b5247000 ---p b5246000 00:00 0 
+2HPMEMMAPLINE  b5247000-b524f000 rwxp b5247000 00:00 0 
+2HPMEMMAPLINE  b524f000-b5250000 ---p b524f000 00:00 0 
+2HPMEMMAPLINE  b5250000-b5287000 rwxp b5250000 00:00 0 
+2HPMEMMAPLINE  b5287000-b5288000 ---p b5287000 00:00 0 
+2HPMEMMAPLINE  b5288000-b5290000 rwxp b5288000 00:00 0 
+2HPMEMMAPLINE  b5290000-b5291000 ---p b5290000 00:00 0 
+2HPMEMMAPLINE  b5291000-b52c8000 rwxp b5291000 00:00 0 
+2HPMEMMAPLINE  b52c8000-b52c9000 ---p b52c8000 00:00 0 
+2HPMEMMAPLINE  b52c9000-b52d1000 rwxp b52c9000 00:00 0 
+2HPMEMMAPLINE  b52d1000-b52d2000 ---p b52d1000 00:00 0 
+2HPMEMMAPLINE  b52d2000-b534a000 rwxp b52d2000 00:00 0 
+2HPMEMMAPLINE  b534a000-b5354000 r-xp 00000000 03:01 8798279    /usr/lib/X11/locale/lib/common/xomGeneric.so.2
+2HPMEMMAPLINE  b5354000-b5355000 rwxp 00009000 03:01 8798279    /usr/lib/X11/locale/lib/common/xomGeneric.so.2
+2HPMEMMAPLINE  b5355000-b543a000 rwxp b5355000 00:00 0 
+2HPMEMMAPLINE  b543a000-b5441000 r-xp 00000000 03:01 10086864   /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/libgcc_s.so.1
+2HPMEMMAPLINE  b5441000-b5442000 rwxp 00007000 03:01 10086864   /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.5-20050130/libgcc_s.so.1
+2HPMEMMAPLINE  b5467000-b5468000 ---p b5467000 00:00 0 
+2HPMEMMAPLINE  b5468000-b5470000 rwxp b5468000 00:00 0 
+2HPMEMMAPLINE  b5470000-b5471000 ---p b5470000 00:00 0 
+2HPMEMMAPLINE  b5471000-b54a8000 rwxp b5471000 00:00 0 
+2HPMEMMAPLINE  b54a8000-b54a9000 ---p b54a8000 00:00 0 
+2HPMEMMAPLINE  b54a9000-b550b000 rwxp b54a9000 00:00 0 
+2HPMEMMAPLINE  b550b000-b550c000 ---p b550b000 00:00 0 
+2HPMEMMAPLINE  b550c000-b5514000 rwxp b550c000 00:00 0 
+2HPMEMMAPLINE  b5514000-b5515000 ---p b5514000 00:00 0 
+2HPMEMMAPLINE  b5515000-b554c000 rwxp b5515000 00:00 0 
+2HPMEMMAPLINE  b554c000-b554d000 ---p b554c000 00:00 0 
+2HPMEMMAPLINE  b554d000-b5555000 rwxp b554d000 00:00 0 
+2HPMEMMAPLINE  b5555000-b5556000 ---p b5555000 00:00 0 
+2HPMEMMAPLINE  b5556000-b558d000 rwxp b5556000 00:00 0 
+2HPMEMMAPLINE  b558d000-b5596000 r-xp 00000000 03:01 10436907   /usr/lib/libXcursor.so.1.0.2
+2HPMEMMAPLINE  b5596000-b5597000 rwxp 00008000 03:01 10436907   /usr/lib/libXcursor.so.1.0.2
+2HPMEMMAPLINE  b55a0000-b55ba000 r-xp 00000000 03:01 5800765    /usr/lib/X11/locale/lib/common/ximcp.so.2
+2HPMEMMAPLINE  b55ba000-b55bc000 rwxp 0001a000 03:01 5800765    /usr/lib/X11/locale/lib/common/ximcp.so.2
+2HPMEMMAPLINE  b55bc000-b55be000 r-xp 00000000 03:01 5801312    /usr/lib/X11/locale/lib/common/xlcDef.so.2
+2HPMEMMAPLINE  b55be000-b55bf000 rwxp 00001000 03:01 5801312    /usr/lib/X11/locale/lib/common/xlcDef.so.2
+2HPMEMMAPLINE  b55bf000-b5640000 rwxp b55bf000 00:00 0 
+2HPMEMMAPLINE  b5640000-b5700000 ---p b5640000 00:00 0 
+2HPMEMMAPLINE  b5735000-b57c4000 r-xp 00000000 03:01 10531195   /opt/ibm-jdk-bin-1.4.2/jre/bin/libfontmanager.so
+2HPMEMMAPLINE  b57c4000-b57d6000 rwxp 0008e000 03:01 10531195   /opt/ibm-jdk-bin-1.4.2/jre/bin/libfontmanager.so
+2HPMEMMAPLINE  b57d6000-b5818000 rwxp b57d6000 00:00 0 
+2HPMEMMAPLINE  b5818000-b5819000 ---p b5818000 00:00 0 
+2HPMEMMAPLINE  b5819000-b5821000 rwxp b5819000 00:00 0 
+2HPMEMMAPLINE  b5821000-b5822000 ---p b5821000 00:00 0 
+2HPMEMMAPLINE  b5822000-b5859000 rwxp b5822000 00:00 0 
+2HPMEMMAPLINE  b5859000-b585a000 ---p b5859000 00:00 0 
+2HPMEMMAPLINE  b585a000-b5862000 rwxp b585a000 00:00 0 
+2HPMEMMAPLINE  b5862000-b5863000 ---p b5862000 00:00 0 
+2HPMEMMAPLINE  b5863000-b589b000 rwxp b5863000 00:00 0 
+2HPMEMMAPLINE  b589b000-b589c000 ---p b589b000 00:00 0 
+2HPMEMMAPLINE  b589c000-b58a4000 rwxp b589c000 00:00 0 
+2HPMEMMAPLINE  b58a4000-b58a5000 ---p b58a4000 00:00 0 
+2HPMEMMAPLINE  b58a5000-b58dc000 rwxp b58a5000 00:00 0 
+2HPMEMMAPLINE  b58dc000-b58e4000 r-xp 00000000 03:01 866613     /lib/libnss_files-2.3.5.so
+2HPMEMMAPLINE  b58e4000-b58e6000 rwxp 00007000 03:01 866613     /lib/libnss_files-2.3.5.so
+2HPMEMMAPLINE  b590b000-b590e000 r-xp 00000000 03:01 10531225   /opt/ibm-jdk-bin-1.4.2/jre/bin/libdt_socket.so
+2HPMEMMAPLINE  b590e000-b590f000 rwxp 00002000 03:01 10531225   /opt/ibm-jdk-bin-1.4.2/jre/bin/libdt_socket.so
+2HPMEMMAPLINE  b590f000-b5910000 ---p b590f000 00:00 0 
+2HPMEMMAPLINE  b5910000-b5918000 rwxp b5910000 00:00 0 
+2HPMEMMAPLINE  b5918000-b5919000 ---p b5918000 00:00 0 
+2HPMEMMAPLINE  b5919000-b5950000 rwxp b5919000 00:00 0 
+2HPMEMMAPLINE  b5950000-b5951000 ---p b5950000 00:00 0 
+2HPMEMMAPLINE  b5951000-b5b5c000 rwxp b5951000 00:00 0 
+2HPMEMMAPLINE  b5b5c000-b5b5d000 ---p b5b5c000 00:00 0 
+2HPMEMMAPLINE  b5b5d000-b5b65000 rwxp b5b5d000 00:00 0 
+2HPMEMMAPLINE  b5b65000-b5b66000 ---p b5b65000 00:00 0 
+2HPMEMMAPLINE  b5b66000-b5b9d000 rwxp b5b66000 00:00 0 
+2HPMEMMAPLINE  b5b9d000-b5b9e000 ---p b5b9d000 00:00 0 
+2HPMEMMAPLINE  b5b9e000-b5ba6000 rwxp b5b9e000 00:00 0 
+2HPMEMMAPLINE  b5ba6000-b5ba7000 ---p b5ba6000 00:00 0 
+2HPMEMMAPLINE  b5ba7000-b5bde000 rwxp b5ba7000 00:00 0 
+2HPMEMMAPLINE  b5bde000-b5bdf000 ---p b5bde000 00:00 0 
+2HPMEMMAPLINE  b5bdf000-b5be7000 rwxp b5bdf000 00:00 0 
+2HPMEMMAPLINE  b5be7000-b5be8000 ---p b5be7000 00:00 0 
+2HPMEMMAPLINE  b5be8000-b5c1f000 rwxp b5be8000 00:00 0 
+2HPMEMMAPLINE  b5c1f000-b5c20000 ---p b5c1f000 00:00 0 
+2HPMEMMAPLINE  b5c20000-b5c28000 rwxp b5c20000 00:00 0 
+2HPMEMMAPLINE  b5c28000-b5c29000 ---p b5c28000 00:00 0 
+2HPMEMMAPLINE  b5c29000-b5c83000 rwxp b5c29000 00:00 0 
+2HPMEMMAPLINE  b5ca8000-b5ce9000 rwxp b5ca8000 00:00 0 
+2HPMEMMAPLINE  b5ce9000-b5cf9000 r-xp 00000000 03:01 10531198   /opt/ibm-jdk-bin-1.4.2/jre/bin/libzip.so
+2HPMEMMAPLINE  b5cf9000-b5cfb000 rwxp 0000f000 03:01 10531198   /opt/ibm-jdk-bin-1.4.2/jre/bin/libzip.so
+2HPMEMMAPLINE  b5cfb000-b5d3c000 rwxp b5cfb000 00:00 0 
+2HPMEMMAPLINE  b5d3c000-b5d4b000 r-xp 00000000 03:01 10531244   /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libcore.so
+2HPMEMMAPLINE  b5d4b000-b5d4e000 rwxp 0000e000 03:01 10531244   /opt/ibm-jdk-bin-1.4.2/jre/bin/classic/libcore.so
+2HPMEMMAPLINE  b5d4e000-b5d8c000 r-xp 00000000 03:01 10531218   /opt/ibm-jdk-bin-1.4.2/jre/bin/libjdwp.so
+2HPMEMMAPLINE  b5d8c000-b5d8e000 rwxp 0003d000 03:01 10531218   /opt/ibm-jdk-bin-1.4.2/jre/bin/libjdwp.so
+2HPMEMMAPLINE  b5d8e000-b7fdb000 rwxp b5d8e000 00:00 0 
+2HPMEMMAPLINE  b7fe6000-b7fe9000 r-xp 00000000 03:01 10531221   /opt/ibm-jdk-bin-1.4.2/jre/bin/libxhpi.so
+2HPMEMMAPLINE  b7fe9000-b7fea000 rwxp 00002000 03:01 10531221   /opt/ibm-jdk-bin-1.4.2/jre/bin/libxhpi.so
+2HPMEMMAPLINE  b7fea000-b7fff000 r-xp 00000000 03:01 10531194   /opt/ibm-jdk-bin-1.4.2/jre/bin/libute.so
+2HPMEMMAPLINE  b7fff000-b8000000 rwxp 00014000 03:01 10531194   /opt/ibm-jdk-bin-1.4.2/jre/bin/libute.so
+2HPMEMMAPLINE  bffc1000-bffc9000 rwxp bffc1000 00:00 0 
+2HPMEMMAPLINE  bffc9000-bffca000 ---p bffc9000 00:00 0 
+2HPMEMMAPLINE  bffca000-c0000000 rwxp bffca000 00:00 0 
+2HPMEMMAPLINE  ffffe000-fffff000 ---p 00000000 00:00 0 
+NULL           
+1HPTHDDETAILS  Current Thread Details
+NULL           ----------------------
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000000, EBX : B51F16A8, ECX : 00000000
+3HPREGVALUES            EDX : B58DAF4C, ESI : 00000000, EDI : 081CF730
+3HPREGVALUES            EBP : B58DAF58, ESP : B58DAF20, EIP : 430D89F2
+3HPREGVALUES            EFLAGS : 00010246
+NULL           
+3HPNATIVESTACK         Native Stack of "JDWP Transport Listener: dt_socket" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            ?? at 430D89F2 in libjvm.so
+3HPSTACKLINE            allLoadedClasses at B5D87387 in libjdwp.so
+3HPSTACKLINE            ?? at B5D6D300 in libjdwp.so
+3HPSTACKLINE            debugLoop_run at B5D72DEE in libjdwp.so
+3HPSTACKLINE            ?? at B5D83AF5 in libjdwp.so
+3HPSTACKLINE            ?? at B5D83BCC in libjdwp.so
+3HPSTACKLINE            ?? at 430D8111 in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+NULL           ------------------------------------------------------------------------
+0SECTION       CI subcomponent dump routine
+NULL           ============================
+1CIJAVAVERSION J2RE 1.4.2 IBM build cxia321420-20040626
+1CIRUNNINGAS   Running as a standalone JVM
+1CICMDLINE     /opt/ibm-jdk-bin-1.4.2/bin/../jre/bin/java -classpath /usr/share/bluej-bin/lib/junit.jar:/home/1800/u_neffge/private/java/test/simpleio2.jar:/home/1800/u_neffge/public_html/java/SimpleInput.jar:/usr/share/bluej-bin/lib/bluejcore.jar:/usr/share/bluej-bin/lib/bluejeditor.jar:/usr/share/bluej-bin/lib/bluejext.jar:/usr/share/bluej-bin/lib/antlr.jar:/usr/share/bluej-bin/lib/MRJ141Stubs.jar:/opt/ibm-jdk-bin-1.4.2/bin/../lib/tools.jar:/usr/share/bluej-bin/lib/bluej.jar:/home/1800/u_neffge/. -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y bluej.runtime.ExecServer
+1CIJAVAHOMEDIR Java Home Dir:   /opt/ibm-jdk-bin-1.4.2/bin/../jre
+1CIJAVADLLDIR  Java DLL Dir:    /opt/ibm-jdk-bin-1.4.2/bin/../jre/bin
+1CISYSCP       Sys Classpath:   /opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/core.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/graphics.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/security.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/server.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/xml.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/charsets.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjgssprovider.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjaaslm.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmorbapi.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmorb.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjcefw.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjssefips.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjsseprovider.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmpkcs.jar:/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmcertpathprovider.jar
+1CIUSERARGS    UserArgs:
+2CIUSERARG               vfprintf 804B3F0
+2CIUSERARG               -Xdebug
+2CIUSERARG               -Xnoagent
+2CIUSERARG               -Xrunjdwp:transport=dt_socket,server=y
+2CIUSERARG               -Dinvokedviajava
+2CIUSERARG               -Djava.class.path=/usr/share/bluej-bin/lib/junit.jar:/home/1800/u_neffge/private/java/test/simpleio2.jar:/home/1800/u_neffge/public_html/java/SimpleInput.jar:/usr/share/bluej-bin/lib/bluejcore.jar:/usr/share/bluej-bin/lib/bluejeditor.jar:/usr/share/bluej-bin/lib/bluejext.jar:/usr/share/bluej-bin/lib/antlr.jar:/usr/share/bluej-bin/lib/MRJ141Stubs.jar:/opt/ibm-jdk-bin-1.4.2/bin/../lib/tools.jar:/usr/share/bluej-bin/lib/bluej.jar:/home/1800/u_neffge/.
+2CIUSERARG               vfprintf
+NULL           
+1CIJVMMI       JVM Monitoring Interface (JVMMI)
+NULL           ------------------------
+2CIJVMMIOFF    No events are enabled.
+NULL           
+NULL           ------------------------------------------------------------------------
+0SECTION       DC subcomponent dump routine
+NULL           ============================
+1DCHEADEREYE   Header eye catcher  DCST
+1DCHEADERLEN   Header length       24
+1DCHEADERVER   Header version      1
+1DCHEADERMOD   Header modification 0
+1DCINTERFACE   DC Interface at 431B0CBC with 15 entries
+2DCINTERFACE      1 - dcCString2JavaString           430B9940
+2DCINTERFACE      2 - dcInt642CString                430B9AE0
+2DCINTERFACE      3 - dcJavaString2NewCString        430B9D00
+2DCINTERFACE      4 - dcJavaString2CString           430B9C40
+2DCINTERFACE      5 - dcJavaString2NewPlatformString 430B9E10
+2DCINTERFACE      6 - dcJavaString2UTF               430BA4D0
+2DCINTERFACE      7 - dcPlatformString2JavaString    430B9F50
+2DCINTERFACE      8 - dcUnicode2UTF                  430BA150
+2DCINTERFACE      9 - dcUnicode2UTFLength            430BA0A0
+2DCINTERFACE     10 - dcUTF2JavaString               430BA620
+2DCINTERFACE     11 - dcUTFClassName2JavaString      430BA850
+2DCINTERFACE     12 - dcJavaString2ClassName         430BA5B0
+2DCINTERFACE     13 - dcUTF2UnicodeNext              430BAA50
+2DCINTERFACE     14 - dcVerifyUTF8                   430BAB00
+2DCINTERFACE     15 - dcDumpRoutine                  430BB440
+1DCARRAYINFO   Array info at 4317CA60 with 16 entries
+2DCARRAYINFO      1 - index  0 signature 0 name      N/A factor 0
+2DCARRAYINFO      2 - index  0 signature 0 name      N/A factor 0
+2DCARRAYINFO      3 - index  2 signature L name  class[] factor 4
+2DCARRAYINFO      4 - index  0 signature 0 name      N/A factor 0
+2DCARRAYINFO      5 - index  4 signature Z name   bool[] factor 1
+2DCARRAYINFO      6 - index  5 signature C name   char[] factor 2
+2DCARRAYINFO      7 - index  6 signature F name  float[] factor 4
+2DCARRAYINFO      8 - index  7 signature D name double[] factor 8
+2DCARRAYINFO      9 - index  8 signature B name   byte[] factor 1
+2DCARRAYINFO     10 - index  9 signature S name  short[] factor 2
+2DCARRAYINFO     11 - index 10 signature I name    int[] factor 4
+2DCARRAYINFO     12 - index 11 signature J name   long[] factor 8
+2DCARRAYINFO     13 - index  0 signature 0 name   uint[] factor 0
+2DCARRAYINFO     14 - index  0 signature 0 name  uint1[] factor 0
+2DCARRAYINFO     15 - index  0 signature 0 name  uint2[] factor 0
+2DCARRAYINFO     16 - index  0 signature 0 name  uint3[] factor 0
+NULL           ------------------------------------------------------------------------
+0SECTION       DG subcomponent dump routine
+NULL           ============================
+1DGTRCENABLED  Trace enabled: Yes
+2DGTRCTYPE       Trace: Internal
+2DGTRCBUFFERS    Buffer specification: 8k
+2DGTRCBUFALLOC   Buffers allocated: 0
+2DGTRCBUFUSED    Buffers in use:    0
+1DGJDUMPBUFF   Javadump buffer size (allocated): 2621440
+NULL           ------------------------------------------------------------------------
+0SECTION       ST subcomponent dump routine
+NULL           ============================
+1STGCMODES     Resettable GC: No
+1STGCMODES     Concurrent GC: No
+1STCURHBASE    Current Heap Base: 100001FC
+1STCURHLIM     Current Heap Limit: 103FFBFC
+1STMWHBASE     Middleware Heap Base: 100001FC
+1STMWHLIM      Middleware Heap Limit: 103FFBFC
+1STGCHELPERS   Number of GC Helper Threads: 1
+1STJVMOPTS     -Xconcurrentlevel: 0 
+1STJVMOPTS     -Xconcurrentbackground: 0 
+1STGCCTR       GC Counter: 2 
+1STAFCTR       AF Counter: 2 
+1STHEAPFREE    Bytes of Heap Space Free: 1b2c60 
+1STHEAPALLOC   Bytes of Heap Space Allocated: 3ffa00 
+1STSMBASE      SM Base: 0 
+1STSMEND       SM End: 0 
+1STPAMSTART    PAM Start: 0 
+1STPAMEND      PAM End: 0 
+1STCOMACTION   Compact Action: 0 
+NULL           ------------------------------------------------------------------------
+0SECTION       XE subcomponent dump routine
+NULL           ============================
+1XETHRESHOLD   MMI threshold for java methods is set to 2000
+1XEJITNINIT    JIT is not initialized 
+1XEJVMPIOFF    JVMPI is not activated 
+1XEJNITHRESH   MMI threshold for JNI methods is set to 0
+1XETRCHIS      Trace history length is set to 4
+NULL           ------------------------------------------------------------------------
+0SECTION       LK subcomponent dump routine
+NULL           ============================
+NULL           
+1LKPOOLINFO    Monitor pool info:
+2LKPOOLINIT      Initial monitor count: 32
+2LKPOOLEXPNUM    Minimum number of free monitors before expansion: 5
+2LKPOOLEXPBY     Pool will next be expanded by: 16
+2LKPOOLTOTAL     Current total number of monitors: 32
+2LKPOOLFREE      Current number of free monitors: 23
+NULL           
+1LKMONPOOLDUMP Monitor Pool Dump (flat & inflated object-monitors):
+2LKMONINUSE      sys_mon_t:0x0807F828 infl_mon_t: 0x0807F320:
+3LKMONOBJECT       java.lang.ref.Reference$Lock@10080C78/10080C80: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Reference Handler" (8153458)
+2LKMONINUSE      sys_mon_t:0x0807F888 infl_mon_t: 0x0807F348:
+3LKMONOBJECT       java.lang.ref.ReferenceQueue$Lock@100809B0/100809B8: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Finalizer" (8156038)
+2LKMONINUSE      sys_mon_t:0x0807F8E8 infl_mon_t: 0x0807F370:
+3LKMONOBJECT       java.lang.Object@10155788/10155790: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "AWT-Shutdown" (83C9CC0)
+2LKMONINUSE      sys_mon_t:0x0807F9A8 infl_mon_t: 0x0807F3C0:
+3LKMONOBJECT       java.lang.ref.ReferenceQueue$Lock@100DC2A8/100DC2B0: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Java2D Disposer" (842FD20)
+2LKMONINUSE      sys_mon_t:0x0807FA08 infl_mon_t: 0x0807F3E8:
+3LKMONOBJECT       java.util.TaskQueue@100FBA40/100FBA48: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Thread-1" (844F8B0)
+2LKMONINUSE      sys_mon_t:0x0807FA68 infl_mon_t: 0x0807F410:
+3LKMONOBJECT       sun.awt.im.ExecutableInputMethodManager@100E0490/100E0498: <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "AWT-InputMethodManager" (84589B8)
+NULL           
+1LKREGMONDUMP  JVM System Monitor Dump (registered monitors):
+2LKREGMON          JDWP Command Queue Lock (0x081E7CD8): <unowned>
+2LKREGMON          JDWP Event Block CommandLoop Monitor (0x081E7870): <unowned>
+2LKREGMON          JDWP Event Helper Completion Monitor (0x081E7810): <unowned>
+2LKREGMON          JDWP Event Helper Queue Monitor (0x081E77B0): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JDWP Event Helper Thread" (81D10D8)
+2LKREGMON          JDWP Event Handler Lock (0x081E35E8): <unowned>
+2LKREGMON          JDWP Transport Send Monitor (0x081E3568): <unowned>
+2LKREGMON          JDWP Transport Listener Monitor (0x081E3508): <unowned>
+2LKREGMON          JDWP Initialization Monitor (0x081E34A8): <unowned>
+2LKREGMON          JDWP Invocation Lock (0x081E3188): <unowned>
+2LKREGMON          JDWP Step Handler Lock (0x081E3128): <unowned>
+2LKREGMON          JDWP Thread Lock (0x081E30C8): <unowned>
+2LKREGMON          JDWP Reference Table Monitor (0x081E3068): <unowned>
+2LKREGMON          JDWP Alloc Lock (0x081E3008): <unowned>
+2LKREGMON          IO lock (0x08081930): <unowned>
+2LKREGMON          Evacuation Region lock (0x08081870): <unowned>
+2LKREGMON          Heap Promotion lock (0x08081810): <unowned>
+2LKREGMON          Sleep lock (0x080817B0): <unowned>
+2LKREGMON          Method trace lock (0x08081750): <unowned>
+2LKREGMON          Heap lock (0x080815D0): owner "JDWP Transport Listener: dt_socket" (81CF908), entry count 1
+2LKREGMON          Monitor Cache lock (0x08081510): owner "JDWP Transport Listener: dt_socket" (81CF908), entry count 1
+2LKREGMON          JNI Pinning lock (0x08081630): <unowned>
+2LKREGMON          JNI Global Reference lock (0x08081570): <unowned>
+2LKREGMON          Classloader lock (0x080816F0): owner "AWT-EventQueue-0" (848D710), entry count 1
+2LKREGMON          Binclass lock (0x080814B0): owner "JDWP Transport Listener: dt_socket" (81CF908), entry count 1
+2LKREGMON          Thread queue lock (0x08076290): owner "JDWP Transport Listener: dt_socket" (81CF908), entry count 1
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Thread-0" (8075EA0)
+2LKREGMON          Monitor Registry lock (0x08081690): owner "JDWP Transport Listener: dt_socket" (81CF908), entry count 1
+2LKREGMON          System Heap lock (0x08080678): <unowned>
+2LKREGMON          ACS Heap lock (0x080806D8): <unowned>
+2LKREGMON          PAM lock (0x08080738): <unowned>
+2LKREGMON          Intern String Table lock (0x08080798): <unowned>
+2LKREGMON          Classloader lock (0x080807F8): <unowned>
+2LKREGMON          JIT Byte Code lock (0x08080858): <unowned>
+2LKREGMON          JIT Global Compile lock (0x080808B8): <unowned>
+2LKREGMON          JIT BINCLASS lock (0x08080918): <unowned>
+2LKREGMON          JIT Debug lock (0x08080978): <unowned>
+2LKREGMON          JIT Log lock (0x080809D8): <unowned>
+2LKREGMON          JITmemT 1 lock (0x08080A38): <unowned>
+2LKREGMON          JITspaceT 1 lock (0x08080A98): <unowned>
+2LKREGMON          JITcodeT 1 lock (0x08080AF8): <unowned>
+2LKREGMON          JITnccbT 1 lock (0x08080B58): <unowned>
+2LKREGMON          JIT Invoke Interface Cache lock (0x08080BB8): <unowned>
+2LKREGMON          JIT Class Map lock (0x08080C18): <unowned>
+2LKREGMON          JIT Code lock (0x08080C78): <unowned>
+2LKREGMON          JITmblkT 1 lock (0x08080CD8): <unowned>
+2LKREGMON          JIT MB Update lock (0x08080D38): <unowned>
+2LKREGMON          Permanent Variable subpool lock (0x08080D98): <unowned>
+2LKREGMON          Intern String Buckets subpool lock (0x08080DF8): <unowned>
+2LKREGMON          UTF8 Cache subpool lock (0x08080E58): <unowned>
+2LKREGMON          Namespace Cache subpool lock (0x08080EB8): <unowned>
+2LKREGMON          Class Storage subpool lock (0x08080F18): <unowned>
+2LKREGMON          CL Tables subpool lock (0x08080F78): <unowned>
+2LKREGMON          JIT General subpool lock (0x08080FD8): <unowned>
+NULL           
+1LKFLATMONDUMP Thread identifiers (as used in flat monitors):
+2LKFLATMON         ident 0x13 "main" (B561E0C0) ee 0xB561DEE8
+2LKFLATMON         ident 0x12 "AWT-EventQueue-0" (848D710) ee 0x0848D538
+2LKFLATMON         ident 0x11 "AWT-InputMethodManager" (84589B8) ee 0x084587E0
+2LKFLATMON         ident 0x10 "Thread-1" (844F8B0) ee 0x0844F6D8
+2LKFLATMON         ident 0x0F "Java2D Disposer" (842FD20) ee 0x0842FB48
+2LKFLATMON         ident 0x0B "AWT-Shutdown" (83C9CC0) ee 0x083C9AE8
+2LKFLATMON         ident 0x02 "Thread-0" (8075EA0) ee 0x08075CC8
+2LKFLATMON         ident 0x0E "BlueJ worker thread" (82F1AC0) ee 0x082F18E8
+2LKFLATMON         ident 0x0C "AWT-Motif" (82A0F78) ee 0x082A0DA0
+2LKFLATMON         ident 0x0A "JDWP Command Reader" (81D2878) ee 0x081D26A0
+2LKFLATMON         ident 0x09 "JDWP Event Helper Thread" (81D10D8) ee 0x081D0F00
+2LKFLATMON         ident 0x08 "JDWP Transport Listener: dt_socket" (81CF908) ee 0x081CF730
+2LKFLATMON         ident 0x05 "Finalizer" (8156038) ee 0x08155E60
+2LKFLATMON         ident 0x04 "Reference Handler" (8153458) ee 0x08153280
+2LKFLATMON         ident 0x03 "Signal dispatcher" (8150E48) ee 0x08150C70
+NULL           
+1LKOBJMONDUMP  Java Object Monitor Dump (flat & inflated object-monitors):
+2LKINFLATEDMON     java.lang.ref.ReferenceQueue$Lock@100809B0/100809B8
+3LKINFLDETAILS         locknflags 80000200 Monitor inflated infl_mon 0x0807F348
+2LKINFLATEDMON     java.lang.ref.Reference$Lock@10080C78/10080C80
+3LKINFLDETAILS         locknflags 80000100 Monitor inflated infl_mon 0x0807F320
+2LKINFLATEDMON     java.lang.ref.ReferenceQueue$Lock@100DC2A8/100DC2B0
+3LKINFLDETAILS         locknflags 80000500 Monitor inflated infl_mon 0x0807F3C0
+2LKINFLATEDMON     sun.awt.im.ExecutableInputMethodManager@100E0490/100E0498
+3LKINFLDETAILS         locknflags 80000700 Monitor inflated infl_mon 0x0807F410
+2LKINFLATEDMON     java.util.TaskQueue@100FBA40/100FBA48
+3LKINFLDETAILS         locknflags 80000600 Monitor inflated infl_mon 0x0807F3E8
+2LKINFLATEDMON     java.lang.Object@10155788/10155790
+3LKINFLDETAILS         locknflags 80000300 Monitor inflated infl_mon 0x0807F370
+2LKFLATLOCKED      java.awt.EventQueue@10327968/10327970
+3LKFLATDETAILS         locknflags 00120000 Flat locked by thread ident 0x12, entry count 1
+NULL           ------------------------------------------------------------------------
+0SECTION       XM subcomponent dump routine
+NULL           ============================
+NULL            
+1XMCURTHDINFO  Current Thread Details
+NULL           ----------------------
+3XMTHREADINFO      "JDWP Transport Listener: dt_socket" (TID:1006B6A8, sys_thread_t:81CF908, state:R, native ID:B58DBBB0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000000, EBX : B51F16A8, ECX : 00000000
+3HPREGVALUES            EDX : B58DAF4C, ESI : 00000000, EDI : 081CF730
+3HPREGVALUES            EBP : B58DAF58, ESP : B58DAF20, EIP : 430D89F2
+3HPREGVALUES            EFLAGS : 00010246
+NULL           
+3HPNATIVESTACK         Native Stack of "JDWP Transport Listener: dt_socket" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            ?? at 430D89F2 in libjvm.so
+3HPSTACKLINE            allLoadedClasses at B5D87387 in libjdwp.so
+3HPSTACKLINE            ?? at B5D6D300 in libjdwp.so
+3HPSTACKLINE            debugLoop_run at B5D72DEE in libjdwp.so
+3HPSTACKLINE            ?? at B5D83AF5 in libjdwp.so
+3HPSTACKLINE            ?? at B5D83BCC in libjdwp.so
+3HPSTACKLINE            ?? at 430D8111 in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+1XMTHDINFO     All Thread Details
+NULL           ------------------
+NULL           
+2XMFULLTHDDUMP Full thread dump Classic VM (J2RE 1.4.2 IBM build cxia321420-20040626, native threads):
+3XMTHREADINFO      "main" (TID:1006B090, sys_thread_t:B561E0C0, state:S, native ID:B51A1BB0) prio=5
+4XESTACKTRACE          at bluej.runtime.ExecServer.vmStarted(ExecServer.java:222)
+4XESTACKTRACE          at bluej.runtime.ExecServer$3.run(ExecServer.java:767)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : B561E3B0, ECX : 00000000
+3HPREGVALUES            EDX : B561E0C0, ESI : B561E474, EDI : B51A0E04
+3HPREGVALUES            EBP : B51A0E14, ESP : B51A0D0C, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000282
+NULL           
+3HPNATIVESTACK         Native Stack of "main" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            ?? at 430D867E in libjvm.so
+3HPSTACKLINE            debugMonitorWait at B5D86915 in libjdwp.so
+3HPSTACKLINE            ?? at B5D76E15 in libjdwp.so
+3HPSTACKLINE            eventHelper_reportEvents at B5D7893E in libjdwp.so
+3HPSTACKLINE            ?? at B5D75E46 in libjdwp.so
+3HPSTACKLINE            ?? at B5D763B5 in libjdwp.so
+3HPSTACKLINE            notify_debugger_of_breakpoint at 430D01AC in libjvm.so
+3HPSTACKLINE            get_breakpoint_opcode at 430D15A9 in libjvm.so
+3HPSTACKLINE            mmisBreakPoint at 4312C508 in libjvm.so
+3HPSTACKLINE            L0_breakpoint__ at 43134C78 in libjvm.so
+3HPSTACKLINE            L0_invokestatic_quick__ at 4313543F in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B51A1138
+NULL           
+3XMTHREADINFO      "AWT-EventQueue-0" (TID:1006B0E8, sys_thread_t:848D710, state:R, native ID:B51E2BB0) prio=6
+4XESTACKTRACE          at java.awt.EventQueue.setCurrentEventAndMostRecentTimeImpl(EventQueue.java:856)
+4XESTACKTRACE          at java.awt.EventQueue.setCurrentEventAndMostRecentTime(EventQueue.java:832)
+4XESTACKTRACE          at java.awt.Component.dispatchEventImpl(Component.java:3584)
+4XESTACKTRACE          at java.awt.Container.dispatchEventImpl(Container.java:1665)
+4XESTACKTRACE          at java.awt.Window.dispatchEventImpl(Window.java:1653)
+4XESTACKTRACE          at java.awt.Component.dispatchEvent(Component.java:3574)
+4XESTACKTRACE          at java.awt.EventQueue.dispatchEvent(EventQueue.java:536)
+4XESTACKTRACE          at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:237)
+4XESTACKTRACE          at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:187)
+4XESTACKTRACE          at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:181)
+4XESTACKTRACE          at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:173)
+4XESTACKTRACE          at java.awt.EventDispatchThread.run(EventDispatchThread.java:136)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000101, EBX : 0848DA00, ECX : 00000000
+3HPREGVALUES            EDX : 0848D710, ESI : 0848DAC4, EDI : B51DF64C
+3HPREGVALUES            EBP : B51DF654, ESP : B51DF54C, EIP : 42729550
+3HPREGVALUES            EFLAGS : 00000206
+NULL           
+3HPNATIVESTACK         Native Stack of "AWT-EventQueue-0" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            _hpiThreadHardSuspend at 42729550 in libhpi.so
+3HPSTACKLINE            ?? at 4271C95B in libhpi.so
+3HPSTACKLINE            ?? at 4271CB60 in libhpi.so
+3HPSTACKLINE            __kernel_rt_sigreturn at FFFFE440 in 
+3HPSTACKLINE            ?? at 430B810F in libjvm.so
+3HPSTACKLINE            createInternalClass0 at 430B909A in libjvm.so
+3HPSTACKLINE            createInternalClass at 4309AE2E in libjvm.so
+3HPSTACKLINE            ?? at 43099640 in libjvm.so
+3HPSTACKLINE            loadClassLocally at 43099F8A in libjvm.so
+3HPSTACKLINE            clFindClassFromClassLoader at 430AA86D in libjvm.so
+3HPSTACKLINE            clFindClassFromClass at 430AAB3B in libjvm.so
+3HPSTACKLINE            clResolveConstantPoolClass at 430943C5 in libjvm.so
+3HPSTACKLINE            L1_instanceof__ at 4313EFA6 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 4313008E in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B51E2138
+NULL           
+3XMTHREADINFO      "AWT-InputMethodManager" (TID:1006B148, sys_thread_t:84589B8, state:CW, native ID:B5286BB0) prio=6
+4XESTACKTRACE          at java.lang.Object.wait(Native Method)
+4XESTACKTRACE          at java.lang.Object.wait(Object.java:443)
+4XESTACKTRACE          at sun.awt.im.ExecutableInputMethodManager.waitForChangeRequest(InputMethodManager.java:406)
+4XESTACKTRACE          at sun.awt.im.ExecutableInputMethodManager.run(InputMethodManager.java:340)
+4XESTACKTRACE          at java.lang.Thread.run(Thread.java:567)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 08458CA8, ECX : 00000000
+3HPREGVALUES            EDX : 084589B8, ESI : 08458D6C, EDI : B5285E94
+3HPREGVALUES            EBP : B5285EA4, ESP : B5285D9C, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "AWT-InputMethodManager" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            mmipSysInvokeJni at 4315C518 in libjvm.so
+3HPSTACKLINE            mmisInvokeJniMethodHelper at 4315C01E in libjvm.so
+3HPSTACKLINE            mmipInvokeJniMethod at 4315CB5E in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            L0_invokeinterface_quick__ at 431355A7 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B5286138
+NULL           
+3XMTHREADINFO      "Thread-1" (TID:1006B1F8, sys_thread_t:844F8B0, state:CW, native ID:B52C7BB0) prio=5
+4XESTACKTRACE          at java.lang.Object.wait(Native Method)
+4XESTACKTRACE          at java.util.TimerThread.mainLoop(Timer.java:444)
+4XESTACKTRACE          at java.util.TimerThread.run(Timer.java:397)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 0844FBA0, ECX : 00000000
+3HPREGVALUES            EDX : 0844F8B0, ESI : 0844FC64, EDI : B52C6EC0
+3HPREGVALUES            EBP : B52C6ED0, ESP : B52C6DC8, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000206
+NULL           
+3HPNATIVESTACK         Native Stack of "Thread-1" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            mmipSysInvokeJni at 4315C518 in libjvm.so
+3HPSTACKLINE            mmisInvokeJniMethodHelper at 4315C01E in libjvm.so
+3HPSTACKLINE            mmipInvokeJniMethod at 4315CB5E in libjvm.so
+3HPSTACKLINE            ?? at 43130083 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B52C7138
+NULL           
+3XMTHREADINFO      "Java2D Disposer" (TID:1006B258, sys_thread_t:842FD20, state:CW, native ID:B5308BB0) prio=10
+4XESTACKTRACE          at java.lang.Object.wait(Native Method)
+4XESTACKTRACE          at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+4XESTACKTRACE          at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:160)
+4XESTACKTRACE          at sun.java2d.Disposer.run(Disposer.java:133)
+4XESTACKTRACE          at java.lang.Thread.run(Thread.java:567)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 08430010, ECX : 00000000
+3HPREGVALUES            EDX : 0842FD20, ESI : 084300D4, EDI : B5307E84
+3HPREGVALUES            EBP : B5307E94, ESP : B5307D8C, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "Java2D Disposer" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            mmipSysInvokeJni at 4315C518 in libjvm.so
+3HPSTACKLINE            mmisInvokeJniMethodHelper at 4315C01E in libjvm.so
+3HPSTACKLINE            mmipInvokeJniMethod at 4315CB5E in libjvm.so
+3HPSTACKLINE            L0_invokevirtual_quick__ at 43135117 in libjvm.so
+3HPSTACKLINE            L0_invokevirtual_quick__ at 43135117 in libjvm.so
+3HPSTACKLINE            L0_invokeinterface_quick__ at 431355A7 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B5308138
+NULL           
+3XMTHREADINFO      "AWT-Shutdown" (TID:1006B2B0, sys_thread_t:83C9CC0, state:CW, native ID:B558CBB0) prio=6
+4XESTACKTRACE          at java.lang.Object.wait(Native Method)
+4XESTACKTRACE          at java.lang.Object.wait(Object.java:443)
+4XESTACKTRACE          at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:292)
+4XESTACKTRACE          at java.lang.Thread.run(Thread.java:567)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 083C9FB0, ECX : 00000000
+3HPREGVALUES            EDX : 083C9CC0, ESI : 083CA074, EDI : B558BEC4
+3HPREGVALUES            EBP : B558BED4, ESP : B558BDCC, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "AWT-Shutdown" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            mmipSysInvokeJni at 4315C518 in libjvm.so
+3HPSTACKLINE            mmisInvokeJniMethodHelper at 4315C01E in libjvm.so
+3HPSTACKLINE            mmipInvokeJniMethod at 4315CB5E in libjvm.so
+3HPSTACKLINE            L0_invokevirtualobject_quick__ at 431356FF in libjvm.so
+3HPSTACKLINE            L0_invokeinterface_quick__ at 431355A7 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B558C138
+NULL           
+3XMTHREADINFO      "Thread-0" (TID:1006B388, sys_thread_t:8075EA0, state:CW, native ID:B7FD96C0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 08076190, ECX : 00000000
+3HPREGVALUES            EDX : 08075EA0, ESI : 08076254, EDI : BFFFF078
+3HPREGVALUES            EBP : BFFFF088, ESP : BFFFEF80, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000206
+NULL           
+3HPNATIVESTACK         Native Stack of "Thread-0" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            xmWaitForSingleThreaded at 4316C504 in libjvm.so
+3HPSTACKLINE            ?? at 43065F09 in libjvm.so
+3HPSTACKLINE            vfprintf at 8049A3B in java
+3HPSTACKLINE            __libc_start_main at 420EF0DA in libc.so.6
+3HPSTACKLINE            strcpy at 8048F91 in java
+NULL           
+3XMTHREADINFO      "BlueJ worker thread" (TID:1006B5A0, sys_thread_t:82F1AC0, state:S, native ID:B54A7BB0) prio=5
+4XESTACKTRACE          at bluej.runtime.ExecServer.vmSuspend(ExecServer.java:232)
+4XESTACKTRACE          at bluej.runtime.ExecServer$1.run(ExecServer.java:159)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000101, EBX : 082F1DB0, ECX : 00000000
+3HPREGVALUES            EDX : 082F1AC0, ESI : 082F1E74, EDI : B54A69BC
+3HPREGVALUES            EBP : B54A69C4, ESP : B54A68BC, EIP : 42729550
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "BlueJ worker thread" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            _hpiThreadHardSuspend at 42729550 in libhpi.so
+3HPSTACKLINE            ?? at 4271C95B in libhpi.so
+3HPSTACKLINE            ?? at 4271CB60 in libhpi.so
+3HPSTACKLINE            __kernel_rt_sigreturn at FFFFE440 in 
+3HPSTACKLINE            __pthread_mutex_unlock at 42308440 in libpthread.so.0
+3HPSTACKLINE            sysMonitorExit at 4272010E in libhpi.so
+3HPSTACKLINE            ?? at 430D8592 in libjvm.so
+3HPSTACKLINE            debugMonitorExit at B5D868AB in libjdwp.so
+3HPSTACKLINE            ?? at B5D76DEE in libjdwp.so
+3HPSTACKLINE            eventHelper_reportEvents at B5D7893E in libjdwp.so
+3HPSTACKLINE            ?? at B5D75E46 in libjdwp.so
+3HPSTACKLINE            ?? at B5D763B5 in libjdwp.so
+3HPSTACKLINE            notify_debugger_of_breakpoint at 430D01AC in libjvm.so
+3HPSTACKLINE            get_breakpoint_opcode at 430D15A9 in libjvm.so
+3HPSTACKLINE            mmisBreakPoint at 4312C508 in libjvm.so
+3HPSTACKLINE            L0_breakpoint__ at 43134C78 in libjvm.so
+3HPSTACKLINE            L0_invokestatic_quick__ at 4313543F in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B54A7138
+NULL           
+3XMTHREADINFO      "AWT-Motif" (TID:1006B548, sys_thread_t:82A0F78, state:R, native ID:B554BBB0) prio=6
+4XESTACKTRACE          at sun.awt.motif.MToolkit.run(Native Method)
+4XESTACKTRACE          at java.lang.Thread.run(Thread.java:567)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000101, EBX : 082A1268, ECX : 00000000
+3HPREGVALUES            EDX : 082A0F78, ESI : 082A132C, EDI : B554AA84
+3HPREGVALUES            EBP : B554AA8C, ESP : B554A984, EIP : 42729550
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "AWT-Motif" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            _hpiThreadHardSuspend at 42729550 in libhpi.so
+3HPSTACKLINE            ?? at 4271C95B in libhpi.so
+3HPSTACKLINE            ?? at 4271CB60 in libhpi.so
+3HPSTACKLINE            __kernel_rt_sigreturn at FFFFE440 in 
+3HPSTACKLINE            waitForEvents at 425762AF in libawt.so
+3HPSTACKLINE            ?? at 425752BD in libawt.so
+3HPSTACKLINE            Java_sun_awt_motif_MToolkit_run at 42577741 in libawt.so
+3HPSTACKLINE            mmisInvoke_V_VHelper at 4315DE1E in libjvm.so
+3HPSTACKLINE            mmipInvoke_V_V at 4312B85F in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B554B138
+NULL           
+3XMTHREADINFO      "JDWP Command Reader" (TID:1006B5F8, sys_thread_t:81D2878, state:R, native ID:B5858BB0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000101, EBX : 081D2B68, ECX : 00000000
+3HPREGVALUES            EDX : 081D2878, ESI : 081D2C2C, EDI : B5857CEC
+3HPREGVALUES            EBP : B5857CF4, ESP : B5857BEC, EIP : 42729550
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "JDWP Command Reader" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            _hpiThreadHardSuspend at 42729550 in libhpi.so
+3HPSTACKLINE            ?? at 4271C95B in libhpi.so
+3HPSTACKLINE            ?? at 4271CB60 in libhpi.so
+3HPSTACKLINE            __kernel_rt_sigreturn at FFFFE440 in 
+3HPSTACKLINE            ?? at B590CB7D in libdt_socket.so
+3HPSTACKLINE            ?? at B590CBBE in libdt_socket.so
+3HPSTACKLINE            transport_receivePacket at B5D84554 in libjdwp.so
+3HPSTACKLINE            ?? at B5D72F39 in libjdwp.so
+3HPSTACKLINE            ?? at 430D8111 in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+3XMTHREADINFO      "JDWP Event Helper Thread" (TID:1006B650, sys_thread_t:81D10D8, state:CW, native ID:B5899BB0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 081D13C8, ECX : 00000000
+3HPREGVALUES            EDX : 081D10D8, ESI : 081D148C, EDI : B5899138
+3HPREGVALUES            EBP : B5899148, ESP : B5899040, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "JDWP Event Helper Thread" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            ?? at 430D867E in libjvm.so
+3HPSTACKLINE            debugMonitorWait at B5D86915 in libjdwp.so
+3HPSTACKLINE            ?? at B5D76F4E in libjdwp.so
+3HPSTACKLINE            ?? at B5D78175 in libjdwp.so
+3HPSTACKLINE            ?? at 430D8111 in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+3XMTHREADINFO      "JDWP Transport Listener: dt_socket" (TID:1006B6A8, sys_thread_t:81CF908, state:R, native ID:B58DBBB0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000000, EBX : B51F16A8, ECX : 00000000
+3HPREGVALUES            EDX : B58DAF4C, ESI : 00000000, EDI : 081CF730
+3HPREGVALUES            EBP : B58DAF58, ESP : B58DAF20, EIP : 430D89F2
+3HPREGVALUES            EFLAGS : 00010246
+NULL           
+3HPNATIVESTACK         Native Stack of "JDWP Transport Listener: dt_socket" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            ?? at 430D89F2 in libjvm.so
+3HPSTACKLINE            allLoadedClasses at B5D87387 in libjdwp.so
+3HPSTACKLINE            ?? at B5D6D300 in libjdwp.so
+3HPSTACKLINE            debugLoop_run at B5D72DEE in libjdwp.so
+3HPSTACKLINE            ?? at B5D83AF5 in libjdwp.so
+3HPSTACKLINE            ?? at B5D83BCC in libjdwp.so
+3HPSTACKLINE            ?? at 430D8111 in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+3XMTHREADINFO      "Finalizer" (TID:1006B8B0, sys_thread_t:8156038, state:CW, native ID:B5BDDBB0) prio=8
+4XESTACKTRACE          at java.lang.Object.wait(Native Method)
+4XESTACKTRACE          at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+4XESTACKTRACE          at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:160)
+4XESTACKTRACE          at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:211)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 08156328, ECX : 00000000
+3HPREGVALUES            EDX : 08156038, ESI : 081563EC, EDI : B5BDCEB4
+3HPREGVALUES            EBP : B5BDCEC4, ESP : B5BDCDBC, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000206
+NULL           
+3HPNATIVESTACK         Native Stack of "Finalizer" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            mmipSysInvokeJni at 4315C518 in libjvm.so
+3HPSTACKLINE            mmisInvokeJniMethodHelper at 4315C01E in libjvm.so
+3HPSTACKLINE            mmipInvokeJniMethod at 4315CB5E in libjvm.so
+3HPSTACKLINE            L0_invokevirtual_quick__ at 43135117 in libjvm.so
+3HPSTACKLINE            L0_invokevirtual_quick__ at 43135117 in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B5BDD138
+NULL           
+3XMTHREADINFO      "Reference Handler" (TID:1006B908, sys_thread_t:8153458, state:CW, native ID:B5C1EBB0) prio=10
+4XESTACKTRACE          at java.lang.ref.Reference.process(Native Method)
+4XESTACKTRACE          at java.lang.ref.Reference.access$300(Reference.java:39)
+4XESTACKTRACE          at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:119)
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000001, EBX : 08153748, ECX : 00000000
+3HPREGVALUES            EDX : 08153458, ESI : 0815380C, EDI : B5C1DF28
+3HPREGVALUES            EBP : B5C1DF38, ESP : B5C1DE30, EIP : 42720304
+3HPREGVALUES            EFLAGS : 00000206
+NULL           
+3HPNATIVESTACK         Native Stack of "Reference Handler" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            sysMonitorWait at 42720304 in libhpi.so
+3HPSTACKLINE            lkMonitorWait at 430DCCD5 in libjvm.so
+3HPSTACKLINE            JVM_MonitorWait at 43076468 in libjvm.so
+3HPSTACKLINE            Java_java_lang_ref_Reference_process at B5D43E2E in libcore.so
+3HPSTACKLINE            mmisInvoke_O_OHelper at 4315ECE3 in libjvm.so
+3HPSTACKLINE            mmipInvoke_O_O at 4312BD5A in libjvm.so
+3HPSTACKLINE            L0_invokestatic_quick__ at 4313544A in libjvm.so
+3HPSTACKLINE            mmipExecuteJava at 4312F743 in libjvm.so
+3HPSTACKLINE            B5C1E138
+NULL           
+3XMTHREADINFO      "Signal dispatcher" (TID:1006B960, sys_thread_t:8150E48, state:R, native ID:B5C5FBB0) prio=5
+NULL           
+3HPREGISTERS           Register Values
+NULL                   ---------------
+3HPREGVALUES            EAX : 00000101, EBX : 08151138, ECX : 00000000
+3HPREGVALUES            EDX : 08150E48, ESI : 081511FC, EDI : B5C5EBEC
+3HPREGVALUES            EBP : B5C5EBF4, ESP : B5C5EAEC, EIP : 42729550
+3HPREGVALUES            EFLAGS : 00000202
+NULL           
+3HPNATIVESTACK         Native Stack of "Signal dispatcher" PID 17171
+NULL                   -------------------------
+3HPSTACKLINE            _hpiThreadHardSuspend at 42729550 in libhpi.so
+3HPSTACKLINE            ?? at 4271C95B in libhpi.so
+3HPSTACKLINE            ?? at 4271CB60 in libhpi.so
+3HPSTACKLINE            __kernel_rt_sigreturn at FFFFE440 in 
+3HPSTACKLINE            sysSignalWait at 4271D97B in libhpi.so
+3HPSTACKLINE            ?? at 431697DF in libjvm.so
+3HPSTACKLINE            xmExecuteThread at 4316CA5A in libjvm.so
+3HPSTACKLINE            ?? at 4316543A in libjvm.so
+3HPSTACKLINE            ?? at 42725A93 in libhpi.so
+3HPSTACKLINE            ?? at 42306C0B in libpthread.so.0
+3HPSTACKLINE            __clone at 4218FDFE in libc.so.6
+NULL           
+NULL           ------------------------------------------------------------------------
+0SECTION       CL subcomponent dump routine
+NULL           ============================
+1CLCLASSPATH   	Classpath Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/core.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/graphics.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/security.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/server.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/xml.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/charsets.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjgssprovider.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjaaslm.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmorbapi.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmorb.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjcefw.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjssefips.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmjsseprovider.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmpkcs.jar),Z(/opt/ibm-jdk-bin-1.4.2/bin/../jre/lib/ibmcertpathprovider.jar)
+1CLFLAGOLDJAVA 	Oldjava mode false
+1CLFLAGBOOTSTRP	Bootstrapping false
+1CLFLAGVERBOSE 	Verbose class dependencies false
+1CLENUMVERIFY  	Class verification VERIFY_REMOTE
+1CLPNTRNAMECLLO	Namespace to classloader 0x00000000
+1CLPNTRCHAINLO 	Start of cache entry pool 0x00000000
+1CLPNTRCHFREE  	Start of free cache entries 0x0840D008
+1CLPNTRMETHODTB	Location of method table 0x081141C0
+1CLPNTRANCHRGLN	Global namespace anchor 0x08076EE4
+1CLPNTRCLSLOADS	System classloader shadow 0x080D79D0
+1CLPNTRSYSLOADS	Classloader shadows 0x0830F700
+1CLPNTRCLSEXT  	Extension loader 0x1006B7D8
+1CLPNTRSYSLOADR	System classloader 0x1006B758
+1CLTEXTCLLOS   	Classloader summaries
+1CLTEXTCLLSS   		12345678: 1=primordial,2=extension,3=shareable,4=middleware,5=system,6=trusted,7=application,8=delegating
+2CLTEXTCLLOADER		------a- Loader bluej/classmgr/ProjectClassLoader(0x0830F700), Shadow 0x1006B308, Parent sun/misc/Launcher$AppClassLoader(0x1006B758)
+3CLNMBRLOADEDCL			Number of loaded classes 3
+3CLNMBRCACHECLS			Number of cached classes 22
+3CLHEXDALLOCTIO			Allocation used for loaded classes 1
+3CLHEXDPCKGEOWN			Package owner 0x1006B308
+2CLTEXTCLLOADER		p----t-d Loader sun/reflect/DelegatingClassLoader(0x082DFA20), Shadow 0x1006B438, Parent *none*(0x00000000)
+3CLNMBRLOADEDCL			Number of loaded classes 1
+3CLNMBRCACHECLS			Number of cached classes 4
+3CLHEXDALLOCTIO			Allocation used for loaded classes 3
+3CLHEXDPCKGEOWN			Package owner 0x1006B438
+2CLTEXTCLLOADER		-----ta- Loader sun/misc/Launcher$AppClassLoader(0x081B93F0), Shadow 0x1006B758, Parent sun/misc/Launcher$ExtClassLoader(0x1006B7D8)
+3CLNMBRLOADEDCL			Number of loaded classes 12
+3CLNMBRCACHECLS			Number of cached classes 285
+3CLHEXDALLOCTIO			Allocation used for loaded classes 1
+3CLHEXDPCKGEOWN			Package owner 0x1006B758
+2CLTEXTCLLOADER		-xh-st-- Loader sun/misc/Launcher$ExtClassLoader(0x081B0378), Shadow 0x1006B7D8, Parent *none*(0x00000000)
+3CLNMBRLOADEDCL			Number of loaded classes 9
+3CLNMBRCACHECLS			Number of cached classes 18
+3CLHEXDALLOCTIO			Allocation used for loaded classes 3
+3CLHEXDPCKGEOWN			Package owner 0x1006B7D8
+2CLTEXTCLLOADER		p-h-st-- Loader *System*(0x080D79D0), Shadow 0x00000000
+3CLNMBRLOADEDCL			Number of loaded classes 861
+3CLNMBRCACHECLS			Number of cached classes 862
+3CLHEXDALLOCTIO			Allocation used for loaded classes 3
+3CLHEXDPCKGEOWN			Package owner 0x00000000
+1CLTEXTCLLOD   	ClassLoader loaded classes
+2CLTEXTCLLOAD  		Loader bluej/classmgr/ProjectClassLoader(0x0830F700)
+3CLTEXTCLASS   			Leinwand$Zeichenflaeche(0x1005E040)
+3CLTEXTCLASS   			Leinwand(0x1005E170)
+3CLTEXTCLASS   			__SHELL0(0x1005E3D0)
+2CLTEXTCLLOAD  		Loader sun/reflect/DelegatingClassLoader(0x082DFA20)
+3CLTEXTCLASS   			sun/reflect/GeneratedConstructorAccessor1(0x1005E500)
+2CLTEXTCLLOAD  		Loader sun/misc/Launcher$AppClassLoader(0x081B93F0)
+3CLTEXTCLASS   			bluej/runtime/RemoteClassMgr(0x1005E9C0)
+3CLTEXTCLASS   			bluej/runtime/ObjectResultWrapper(0x1005DF10)
+3CLTEXTCLASS   			bluej/runtime/ExecServer$3(0x1005EAF0)
+3CLTEXTCLASS   			bluej/runtime/RemoteClassMgr$BlueJLoader(0x1005E760)
+3CLTEXTCLASS   			junit/framework/Test(0x1005EC20)
+3CLTEXTCLASS   			bluej/runtime/ExecServer(0x1005F0E0)
+3CLTEXTCLASS   			bluej/runtime/ExecServer$1(0x1005EE80)
+3CLTEXTCLASS   			bluej/runtime/Shell(0x1005E2A0)
+3CLTEXTCLASS   			bluej/runtime/RemoteSecurityManager(0x1005ED50)
+3CLTEXTCLASS   			bluej/classmgr/ProjectClassLoader(0x1005E890)
+3CLTEXTCLASS   			bluej/runtime/BJInputStream(0x1005EFB0)
+3CLTEXTCLASS   			bluej/runtime/ExecServer$2(0x1005E630)
+2CLTEXTCLLOAD  		Loader sun/misc/Launcher$ExtClassLoader(0x081B0378)
+3CLTEXTCLASS   			com/ibm/text/indicim/MalayalamInputMethodDescriptor(0xB536B368)
+3CLTEXTCLASS   			com/ibm/text/indicim/TamilInputMethodDescriptor(0xB536B5C8)
+3CLTEXTCLASS   			com/ibm/text/indicim/GujaratiInputMethodDescriptor(0xB536AFD8)
+3CLTEXTCLASS   			com/ibm/text/indicim/KannadaInputMethodDescriptor(0xB536B238)
+3CLTEXTCLASS   			com/ibm/text/indicim/DevanagariInputMethodDescriptor(0xB536AEA8)
+3CLTEXTCLASS   			com/ibm/text/indicim/OriyaInputMethodDescriptor(0xB536B498)
+3CLTEXTCLASS   			com/ibm/text/indicim/TeluguInputMethodDescriptor(0xB536B6F8)
+3CLTEXTCLASS   			com/ibm/text/indicim/BengaliInputMethodDescriptor(0xB536AC48)
+3CLTEXTCLASS   			com/ibm/text/indicim/GurmukhiInputMethodDescriptor(0xB536B108)
+2CLTEXTCLLOAD  		Loader *System*(0x080D79D0)
+3CLTEXTCLASS   			java/awt/Graphics(0xB5367218)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicLookAndFeel(0xB54FBBB8)
+3CLTEXTCLASS   			java/awt/EventQueue(0xB598DF58)
+3CLTEXTCLASS   			java/util/PropertyResourceBundle(0xB5989488)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$RgbaPre(0xB5362C08)
+3CLTEXTCLASS   			java/io/FileFilter(0xB54F6178)
+3CLTEXTCLASS   			java/awt/event/InputMethodEvent(0xB51F1578)
+3CLTEXTCLASS   			java/awt/image/ComponentSampleModel(0xB536EA08)
+3CLTEXTCLASS   			javax/swing/KeyboardManager$ComponentKeyStrokePair(0xB536DBC8)
+3CLTEXTCLASS   			sun/awt/X11SurfaceData$X11WindowSurfaceData(0xB53690F8)
+3CLTEXTCLASS   			sun/java2d/pipe/DrawImagePipe(0xB5364AE8)
+3CLTEXTCLASS   			java/awt/font/TransformAttribute(0xB54FE2E8)
+3CLTEXTCLASS   			javax/swing/plaf/metal/DefaultMetalTheme$FontDelegate(0xB54FC2D8)
+3CLTEXTCLASS   			java/awt/event/KeyListener(0xB54F0738)
+3CLTEXTCLASS   			java/util/HashMap$HashIterator(0xB598C798)
+3CLTEXTCLASS   			sun/misc/JarIndex(0xB5984C18)
+3CLTEXTCLASS   			java/security/PermissionCollection(0xB5983328)
+3CLTEXTCLASS   			sun/net/www/protocol/file/Handler(0xB5982878)
+3CLTEXTCLASS   			java/io/FilterInputStream(0xB7FAED98)
+3CLTEXTCLASS   			[Ljava/lang/ref/SoftReference;(0xB7FAC8C8)
+3CLTEXTCLASS   			java/lang/reflect/Constructor(0xB7FA69C8)
+3CLTEXTCLASS   			java/util/Hashtable(0xB7FA4168)
+3CLTEXTCLASS   			java/util/Stack(0xB7FA3328)
+3CLTEXTCLASS   			[I(0xB7FA1EF8)
+3CLTEXTCLASS   			sun/awt/motif/MGlobalCursorManager(0xB536FE38)
+3CLTEXTCLASS   			sun/java2d/loops/CompositeType(0xB5366E88)
+3CLTEXTCLASS   			sun/java2d/loops/Blit(0xB5366AF8)
+3CLTEXTCLASS   			javax/swing/JRootPane(0xB54FAC48)
+3CLTEXTCLASS   			java/awt/peer/LightweightPeer(0xB54F9948)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedMap(0xB598B498)
+3CLTEXTCLASS   			java/lang/NoSuchMethodException(0xB5987CC8)
+3CLTEXTCLASS   			sun/security/action/GetPropertyAction(0xB7FAC9F8)
+3CLTEXTCLASS   			java/awt/AlphaComposite(0xB53676D8)
+3CLTEXTCLASS   			javax/swing/plaf/metal/MetalRootPaneUI(0xB54FF258)
+3CLTEXTCLASS   			sun/reflect/BootstrapConstructorAccessorImpl(0xB54F4AE8)
+3CLTEXTCLASS   			java/lang/System$1(0xB54F2028)
+3CLTEXTCLASS   			java/io/BufferedReader(0xB59895B8)
+3CLTEXTCLASS   			java/util/jar/JavaUtilJarAccessImpl(0xB5984888)
+3CLTEXTCLASS   			sun/reflect/UnsafeBooleanFieldAccessorImpl(0xB5983458)
+3CLTEXTCLASS   			java/io/ExpiringCache$Entry(0xB7FAFAA8)
+3CLTEXTCLASS   			java/lang/ref/Finalizer$FinalizerThread(0xB7FABBB8)
+3CLTEXTCLASS   			sun/misc/SoftCache(0xB7FA6D58)
+3CLTEXTCLASS   			java/awt/image/Raster(0xB536DCF8)
+3CLTEXTCLASS   			java/util/prefs/Preferences$1(0xB536BA88)
+3CLTEXTCLASS   			sun/java2d/SunGraphics2D(0xB5366FB8)
+3CLTEXTCLASS   			sun/java2d/pipe/AATextRenderer(0xB5365338)
+3CLTEXTCLASS   			java/io/ExpiringCache(0xB7FAF848)
+3CLTEXTCLASS   			java/io/FileSystem(0xB7FAF5E8)
+3CLTEXTCLASS   			java/lang/StringCoding$3(0xB7FAC408)
+3CLTEXTCLASS   			java/io/ObjectStreamException(0xB7FA95B8)
+3CLTEXTCLASS   			java/lang/Long(0xB7FA8778)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Xrgb(0xB5362618)
+3CLTEXTCLASS   			java/awt/peer/PanelPeer(0xB53616A8)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicRootPaneUI$RootPaneInputMap(0xB54FF978)
+3CLTEXTCLASS   			javax/swing/plaf/FontUIResource(0xB54FC408)
+3CLTEXTCLASS   			javax/swing/event/SwingPropertyChangeSupport(0xB54FB6F8)
+3CLTEXTCLASS   			java/io/UnixFileSystem(0xB7FAF718)
+3CLTEXTCLASS   			java/io/ObjectStreamClass(0xB7FA6C28)
+3CLTEXTCLASS   			sun/reflect/FieldAccessor(0xB7FA0E58)
+3CLTEXTCLASS   			sun/awt/MostRecentKeyValue(0xB598EEC8)
+3CLTEXTCLASS   			sun/awt/SunToolkit$1(0xB598DCF8)
+3CLTEXTCLASS   			java/lang/SecurityManager(0xB5987B98)
+3CLTEXTCLASS   			com/ibm/jvm/io/LocalizedInputStream$1(0xB7FAFE38)
+3CLTEXTCLASS   			java/io/FileOutputStream(0xB7FAEB38)
+3CLTEXTCLASS   			java/io/DataOutput(0xB7FAA068)
+3CLTEXTCLASS   			java/io/ObjectOutputStream(0xB7FA9CD8)
+3CLTEXTCLASS   			java/io/ObjectInputStream(0xB7FA96E8)
+3CLTEXTCLASS   			sun/io/CharToByteSingleByte(0xB536D378)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$ArgbPre(0xB5362878)
+3CLTEXTCLASS   			java/lang/ClassLoader$2(0xB54F5DE8)
+3CLTEXTCLASS   			java/awt/event/HierarchyListener(0xB54F1448)
+3CLTEXTCLASS   			sun/misc/JavaUtilJarAccess(0xB59849B8)
+3CLTEXTCLASS   			java/util/AbstractSet(0xB7FAD118)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory(0xB7FA6508)
+3CLTEXTCLASS   			java/lang/RuntimeException(0xB7FA37E8)
+3CLTEXTCLASS   			java/util/Arrays(0xB5369488)
+3CLTEXTCLASS   			sun/java2d/loops/DrawRect(0xB5368058)
+3CLTEXTCLASS   			sun/java2d/loops/RenderCache$Entry(0xB5366508)
+3CLTEXTCLASS   			java/awt/image/IndexColorModel(0xB5364C18)
+3CLTEXTCLASS   			sun/java2d/pipe/PixelDrawPipe(0xB5364628)
+3CLTEXTCLASS   			sun/awt/motif/MComponentPeer(0xB53611E8)
+3CLTEXTCLASS   			sun/awt/motif/MCanvasPeer(0xB53610B8)
+3CLTEXTCLASS   			javax/swing/UIDefaults$LazyValue(0xB54FC798)
+3CLTEXTCLASS   			sun/reflect/ByteVector(0xB54F4168)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment$TTFilter(0xB598C8C8)
+3CLTEXTCLASS   			java/util/HashMap$KeySet(0xB598C538)
+3CLTEXTCLASS   			java/security/UnresolvedPermission(0xB59875A8)
+3CLTEXTCLASS   			java/io/FilePermission(0xB5987218)
+3CLTEXTCLASS   			sun/misc/URLClassPath$5(0xB59857F8)
+3CLTEXTCLASS   			java/util/ArrayList(0xB5981EF8)
+3CLTEXTCLASS   			java/util/Collections$ReverseComparator(0xB7FAD5D8)
+3CLTEXTCLASS   			javax/swing/JRootPane$RootLayout(0xB54FF128)
+3CLTEXTCLASS   			javax/swing/RepaintManager(0xB54FEA08)
+3CLTEXTCLASS   			java/awt/Window$1(0xB54F8D68)
+3CLTEXTCLASS   			java/awt/Queue(0xB598E088)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedSet(0xB5989E08)
+3CLTEXTCLASS   			sun/misc/URLClassPath$FileLoader(0xB5988B08)
+3CLTEXTCLASS   			java/io/BufferedOutputStream(0xB5980018)
+3CLTEXTCLASS   			java/lang/Byte(0xB7FA8058)
+3CLTEXTCLASS   			java/util/Dictionary(0xB7FA4298)
+3CLTEXTCLASS   			sun/java2d/DisposerTarget(0xB5362028)
+3CLTEXTCLASS   			sun/reflect/DelegatingMethodAccessorImpl(0xB54F6FB8)
+3CLTEXTCLASS   			java/awt/event/AWTEventListenerProxy(0xB598FD08)
+3CLTEXTCLASS   			java/util/TreeMap$1(0xB598D118)
+3CLTEXTCLASS   			java/util/zip/ZipEntry(0xB5984E78)
+3CLTEXTCLASS   			sun/io/CharToByteConverter(0xB7FADE28)
+3CLTEXTCLASS   			java/lang/StringCoding$2(0xB7FADCF8)
+3CLTEXTCLASS   			java/lang/ref/SoftReference(0xB7FAB6F8)
+3CLTEXTCLASS   			sun/awt/motif/X11RemoteOffScreenImage(0xB536EC68)
+3CLTEXTCLASS   			java/awt/im/spi/InputMethod(0xB536AD78)
+3CLTEXTCLASS   			sun/java2d/loops/RenderLoops(0xB5369228)
+3CLTEXTCLASS   			sun/java2d/loops/DrawGlyphListAA(0xB5368648)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment$1(0xB598BE18)
+3CLTEXTCLASS   			sun/awt/InputMethodSupport(0xB598AD78)
+3CLTEXTCLASS   			sun/misc/Launcher$ExtClassLoader(0xB59817D8)
+3CLTEXTCLASS   			java/security/PrivilegedExceptionAction(0xB7FAC668)
+3CLTEXTCLASS   			sun/awt/image/BufImgSurfaceData(0xB536F848)
+3CLTEXTCLASS   			java/util/TaskQueue(0xB536C2D8)
+3CLTEXTCLASS   			sun/java2d/pipe/NullPipe(0xB53644F8)
+3CLTEXTCLASS   			javax/swing/LookAndFeel(0xB54FBCE8)
+3CLTEXTCLASS   			sun/awt/AWTAutoShutdown(0xB598AEA8)
+3CLTEXTCLASS   			java/net/URLConnection(0xB5986D58)
+3CLTEXTCLASS   			sun/net/www/ParseUtil(0xB5982288)
+3CLTEXTCLASS   			sun/java2d/pipe/PixelToShapeConverter(0xB53656C8)
+3CLTEXTCLASS   			javax/swing/plaf/DimensionUIResource(0xB54FCD88)
+3CLTEXTCLASS   			sun/security/provider/PolicyParser(0xB54F3328)
+3CLTEXTCLASS   			java/security/SecurityPermission(0xB54F24E8)
+3CLTEXTCLASS   			java/awt/Toolkit(0xB5988518)
+3CLTEXTCLASS   			java/lang/SystemClassLoaderAction(0xB5983CA8)
+3CLTEXTCLASS   			com/ibm/jvm/ExtendedSystem$3(0xB7FA8FC8)
+3CLTEXTCLASS   			java/util/AbstractMap(0xB7FA6E88)
+3CLTEXTCLASS   			java/lang/VirtualMachineError(0xB7FA4038)
+3CLTEXTCLASS   			java/lang/ThreadDeath(0xB7FA3458)
+3CLTEXTCLASS   			javax/swing/UIDefaults$ProxyLazyValue(0xB54FC668)
+3CLTEXTCLASS   			javax/swing/UIManager$LookAndFeelInfo(0xB54FB238)
+3CLTEXTCLASS   			java/awt/event/ItemListener(0xB54F0F88)
+3CLTEXTCLASS   			java/awt/peer/FontPeer(0xB598ED98)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/URLJarFile$URLJarFileEntry(0xB5989358)
+3CLTEXTCLASS   			sun/net/www/URLConnection(0xB5986C28)
+3CLTEXTCLASS   			sun/net/www/protocol/file/FileURLConnection(0xB5986AF8)
+3CLTEXTCLASS   			sun/misc/Launcher(0xB5981448)
+3CLTEXTCLASS   			java/lang/Thread(0xB7FA2748)
+3CLTEXTCLASS   			java/awt/EventQueue$1(0xB51F03A8)
+3CLTEXTCLASS   			sun/awt/X11SurfaceData$X11PixmapSurfaceData(0xB536FAA8)
+3CLTEXTCLASS   			sun/java2d/loops/ScaledBlit(0xB5367B98)
+3CLTEXTCLASS   			sun/java2d/pipe/RegionIterator(0xB5365A58)
+3CLTEXTCLASS   			sun/awt/AWTAutoShutdown$1(0xB54F6508)
+3CLTEXTCLASS   			java/security/Permissions(0xB59869C8)
+3CLTEXTCLASS   			java/net/URLClassLoader$1(0xB59863D8)
+3CLTEXTCLASS   			java/io/FileDescriptor(0xB7FAE8D8)
+3CLTEXTCLASS   			java/util/Set(0xB7FAD248)
+3CLTEXTCLASS   			java/util/Random(0xB7FACEB8)
+3CLTEXTCLASS   			java/util/HashMap$Entry(0xB7FA76D8)
+3CLTEXTCLASS   			java/util/Iterator(0xB7FA4888)
+3CLTEXTCLASS   			sun/reflect/UnsafeFieldAccessorImpl(0xB7FA0AC8)
+3CLTEXTCLASS   			java/awt/im/spi/InputMethodDescriptor(0xB5369CD8)
+3CLTEXTCLASS   			sun/misc/URLClassPath$Loader(0xB59844F8)
+3CLTEXTCLASS   			java/lang/StringBuffer(0xB7FAD968)
+3CLTEXTCLASS   			java/lang/ThreadLocal$ThreadLocalMap$Entry(0xB7FAC1A8)
+3CLTEXTCLASS   			java/lang/UnsupportedOperationException(0xB7FAA3F8)
+3CLTEXTCLASS   			java/io/Serializable(0xB7FA04D8)
+3CLTEXTCLASS   			sun/awt/X11SurfaceData(0xB5361DC8)
+3CLTEXTCLASS   			javax/swing/plaf/InsetsUIResource(0xB54FC8C8)
+3CLTEXTCLASS   			sun/reflect/ClassFileAssembler(0xB54F4298)
+3CLTEXTCLASS   			sun/security/provider/PolicyFile(0xB54F2C08)
+3CLTEXTCLASS   			java/awt/Dimension(0xB598F388)
+3CLTEXTCLASS   			sun/nio/cs/StreamDecoder(0xB5989948)
+3CLTEXTCLASS   			sun/misc/Launcher$2(0xB5983918)
+3CLTEXTCLASS   			sun/nio/cs/StreamEncoder(0xB5980738)
+3CLTEXTCLASS   			sun/io/ByteToCharConverter(0xB7FACB28)
+3CLTEXTCLASS   			java/util/TimerTask(0xB536C408)
+3CLTEXTCLASS   			sun/java2d/pipe/CompositePipe(0xB5365598)
+3CLTEXTCLASS   			java/awt/image/PackedColorModel(0xB5363A48)
+3CLTEXTCLASS   			java/awt/FocusTraversalPolicy(0xB54FA2C8)
+3CLTEXTCLASS   			java/awt/DefaultKeyboardFocusManager(0xB54F9F38)
+3CLTEXTCLASS   			java/awt/Transparency(0xB54F7CC8)
+3CLTEXTCLASS   			java/util/EventObject(0xB54F6768)
+3CLTEXTCLASS   			java/awt/Toolkit$1(0xB598FBD8)
+3CLTEXTCLASS   			java/awt/FontMetrics(0xB598B5C8)
+3CLTEXTCLASS   			sun/awt/DebugHelper(0xB598A2C8)
+3CLTEXTCLASS   			sun/misc/Launcher$Factory(0xB5981578)
+3CLTEXTCLASS   			sun/awt/color/ProfileDeferralMgr(0xB5363F08)
+3CLTEXTCLASS   			java/awt/color/ICC_Profile(0xB5363CA8)
+3CLTEXTCLASS   			java/awt/peer/ContainerPeer(0xB5360BF8)
+3CLTEXTCLASS   			javax/swing/UIManager$2(0xB54FDBC8)
+3CLTEXTCLASS   			javax/swing/RootPaneContainer(0xB54F82B8)
+3CLTEXTCLASS   			java/awt/Paint(0xB54F7B98)
+3CLTEXTCLASS   			sun/awt/SunToolkit(0xB598A8B8)
+3CLTEXTCLASS   			java/lang/ThreadGroup(0xB7FA8C38)
+3CLTEXTCLASS   			[C(0xB7FA1A38)
+3CLTEXTCLASS   			sun/awt/image/OffScreenImage(0xB536EFF8)
+3CLTEXTCLASS   			sun/awt/motif/X11InputMethodDescriptor(0xB5369BA8)
+3CLTEXTCLASS   			sun/awt/color/ProfileDeferralInfo(0xB5363DD8)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Ushort4444Argb(0xB53630C8)
+3CLTEXTCLASS   			javax/swing/Action(0xB5360738)
+3CLTEXTCLASS   			java/util/AbstractSequentialList(0xB5988058)
+3CLTEXTCLASS   			sun/net/www/MessageHeader(0xB59870E8)
+3CLTEXTCLASS   			java/security/cert/Certificate(0xB5982D38)
+3CLTEXTCLASS   			java/util/Enumeration(0xB7FA4628)
+3CLTEXTCLASS   			java/lang/ClassLoader(0xB7FA29A8)
+3CLTEXTCLASS   			java/lang/Comparable(0xB7FA0738)
+3CLTEXTCLASS   			javax/swing/UIManager$LAFState(0xB54FB368)
+3CLTEXTCLASS   			javax/swing/event/EventListenerList(0xB54FAD78)
+3CLTEXTCLASS   			java/awt/KeyEventPostProcessor(0xB54F9E08)
+3CLTEXTCLASS   			java/awt/ComponentOrientation(0xB54F8E98)
+3CLTEXTCLASS   			java/awt/event/WindowListener(0xB54F0AC8)
+3CLTEXTCLASS   			sun/awt/FontProperties(0xB598C078)
+3CLTEXTCLASS   			sun/awt/X11GraphicsEnvironment(0xB598B6F8)
+3CLTEXTCLASS   			sun/misc/URLClassPath(0xB59830C8)
+3CLTEXTCLASS   			sun/io/CharacterEncoding(0xB7FACC58)
+3CLTEXTCLASS   			com/ibm/jvm/classloader/Shareable(0xB7FA4E78)
+3CLTEXTCLASS   			sun/awt/GlobalCursorManager(0xB51F0018)
+3CLTEXTCLASS   			sun/java2d/loops/CustomComponent(0xB5368778)
+3CLTEXTCLASS   			sun/java2d/SurfaceData(0xB5361EF8)
+3CLTEXTCLASS   			java/beans/PropertyChangeListener(0xB54FF5E8)
+3CLTEXTCLASS   			javax/swing/SwingConstants(0xB54FAB18)
+3CLTEXTCLASS   			java/awt/AWTKeyStroke(0xB54FA528)
+3CLTEXTCLASS   			java/awt/ActiveEvent(0xB54F6AF8)
+3CLTEXTCLASS   			sun/security/action/GetIntegerAction(0xB54F5B88)
+3CLTEXTCLASS   			java/net/URI$Parser(0xB54F31F8)
+3CLTEXTCLASS   			java/lang/Runtime(0xB7FABE18)
+3CLTEXTCLASS   			sun/reflect/UnsafeStaticFieldAccessorImpl(0xB7FA0998)
+3CLTEXTCLASS   			sun/java2d/DisposerRecord(0xB5369818)
+3CLTEXTCLASS   			java/util/Collections$UnmodifiableCollection(0xB54FA8B8)
+3CLTEXTCLASS   			sun/reflect/ByteVectorFactory(0xB54F3F08)
+3CLTEXTCLASS   			sun/awt/CustomCursor(0xB598F128)
+3CLTEXTCLASS   			java/util/TreeMap$EntryIterator(0xB598D378)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/JarURLConnection(0xB5988E98)
+3CLTEXTCLASS   			sun/security/action/LoadLibraryAction(0xB7FAF388)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory$1(0xB7FAE1B8)
+3CLTEXTCLASS   			java/lang/Integer$1(0xB7FA83E8)
+3CLTEXTCLASS   			java/lang/Integer(0xB7FA82B8)
+3CLTEXTCLASS   			java/lang/Object(0xB7FA0278)
+3CLTEXTCLASS   			java/util/prefs/NodeChangeListener(0xB536CD88)
+3CLTEXTCLASS   			sun/java2d/pipe/SpanClipRenderer(0xB5365928)
+3CLTEXTCLASS   			java/awt/LayoutManager(0xB54F9358)
+3CLTEXTCLASS   			java/lang/Double(0xB7FA89D8)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences$4(0xB536C798)
+3CLTEXTCLASS   			sun/misc/Service$LazyIterator(0xB536A198)
+3CLTEXTCLASS   			sun/java2d/pipe/GlyphListPipe(0xB5365208)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Ushort565Rgb(0xB5362D38)
+3CLTEXTCLASS   			java/text/AttributedCharacterIterator$1(0xB54FE7A8)
+3CLTEXTCLASS   			javax/swing/plaf/PanelUI(0xB54FDF58)
+3CLTEXTCLASS   			com/ibm/security/bootstrap/BootstrapProvider(0xB54F1B68)
+3CLTEXTCLASS   			java/beans/PropertyChangeSupport(0xB598DBC8)
+3CLTEXTCLASS   			sun/awt/NativeLibLoader(0xB598A3F8)
+3CLTEXTCLASS   			java/awt/Stroke(0xB53675A8)
+3CLTEXTCLASS   			javax/swing/plaf/metal/DefaultMetalTheme(0xB54FBF48)
+3CLTEXTCLASS   			java/awt/Container(0xB54F70E8)
+3CLTEXTCLASS   			sun/awt/AppContext$1(0xB598E2E8)
+3CLTEXTCLASS   			java/util/ResourceBundle(0xB5988778)
+3CLTEXTCLASS   			java/util/jar/JarFile$JarFileEntry(0xB59850D8)
+3CLTEXTCLASS   			com/ibm/jvm/ExtendedSystem(0xB7FA8D68)
+3CLTEXTCLASS   			java/lang/RuntimePermission(0xB7FA6638)
+3CLTEXTCLASS   			java/util/Map(0xB7FA43C8)
+3CLTEXTCLASS   			java/text/AttributedCharacterIterator$Attribute(0xB54FE678)
+3CLTEXTCLASS   			java/awt/MenuContainer(0xB54F7478)
+3CLTEXTCLASS   			java/net/NetPermission(0xB54F23B8)
+3CLTEXTCLASS   			sun/misc/ExtensionDependency(0xB5984FA8)
+3CLTEXTCLASS   			[Ljava/lang/Thread;(0xB7FAB238)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorImpl(0xB7FA5468)
+3CLTEXTCLASS   			java/lang/NullPointerException(0xB7FA3B78)
+3CLTEXTCLASS   			java/awt/image/WritableRenderedImage(0xB536F388)
+3CLTEXTCLASS   			sun/awt/image/ShortComponentRaster(0xB536E678)
+3CLTEXTCLASS   			sun/awt/im/InputMethodManager(0xB5369948)
+3CLTEXTCLASS   			sun/java2d/pipe/TextPipe(0xB53649B8)
+3CLTEXTCLASS   			java/awt/color/ICC_ColorSpace(0xB53643C8)
+3CLTEXTCLASS   			java/awt/event/InputEvent(0xB54F8648)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Constructor;(0xB54F3A48)
+3CLTEXTCLASS   			java/net/SocketPermission(0xB54F2618)
+3CLTEXTCLASS   			java/awt/event/FocusListener(0xB54F0608)
+3CLTEXTCLASS   			sun/misc/SignalHandler(0xB59810B8)
+3CLTEXTCLASS   			java/lang/Terminator(0xB5980E58)
+3CLTEXTCLASS   			java/awt/event/PaintEvent(0xB51F0868)
+3CLTEXTCLASS   			java/awt/BasicStroke(0xB5367478)
+3CLTEXTCLASS   			javax/swing/SwingUtilities$2(0xB54FB958)
+3CLTEXTCLASS   			sun/net/InetAddressCachePolicy(0xB54F57F8)
+3CLTEXTCLASS   			sun/awt/motif/MToolkit$3(0xB598F718)
+3CLTEXTCLASS   			java/io/StreamTokenizer(0xB598C408)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedList(0xB59882B8)
+3CLTEXTCLASS   			java/net/URLClassLoader$ClassFinder(0xB5982AD8)
+3CLTEXTCLASS   			com/ibm/jvm/io/LocalizedInputStream(0xB7FAEFF8)
+3CLTEXTCLASS   			java/lang/Class$1(0xB7FAE088)
+3CLTEXTCLASS   			javax/swing/SystemEventQueueUtilities$1(0xB536D838)
+3CLTEXTCLASS   			java/awt/peer/WindowPeer(0xB5360AC8)
+3CLTEXTCLASS   			java/awt/ContainerOrderFocusTraversalPolicy(0xB54FA198)
+3CLTEXTCLASS   			sun/io/Converters(0xB7FAC798)
+3CLTEXTCLASS   			java/lang/ref/PhantomReference(0xB7FABCE8)
+3CLTEXTCLASS   			java/util/Map$Entry(0xB7FA7808)
+3CLTEXTCLASS   			sun/awt/motif/X11OffScreenImage(0xB536ED98)
+3CLTEXTCLASS   			sun/java2d/pipe/SolidTextRenderer(0xB53650D8)
+3CLTEXTCLASS   			javax/swing/MultiUIDefaults(0xB54FB5C8)
+3CLTEXTCLASS   			java/net/MalformedURLException(0xB54F6048)
+3CLTEXTCLASS   			sun/misc/PerformanceLogger$TimeData(0xB598E7A8)
+3CLTEXTCLASS   			java/awt/Toolkit$2(0xB598A658)
+3CLTEXTCLASS   			java/lang/StringCoding$DecoderCache(0xB7FAC2D8)
+3CLTEXTCLASS   			java/io/DataInput(0xB7FA9A78)
+3CLTEXTCLASS   			javax/swing/LookAndFeel$1(0xB54FCB28)
+3CLTEXTCLASS   			java/awt/LayoutManager2(0xB54F9228)
+3CLTEXTCLASS   			java/awt/Frame(0xB54F7F28)
+3CLTEXTCLASS   			java/awt/Color(0xB54F7A68)
+3CLTEXTCLASS   			sun/reflect/ClassDefiner(0xB54F4888)
+3CLTEXTCLASS   			sun/security/provider/PolicyParser$PermissionEntry(0xB54F3588)
+3CLTEXTCLASS   			sun/misc/Launcher$1(0xB5981B68)
+3CLTEXTCLASS   			sun/reflect/MagicAccessorImpl(0xB7FA0D28)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$ArgbBm(0xB53636B8)
+3CLTEXTCLASS   			javax/swing/ActionMap(0xB53603A8)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment(0xB598B828)
+3CLTEXTCLASS   			java/security/Principal(0xB5987808)
+3CLTEXTCLASS   			java/lang/StringCoding(0xB7FABF48)
+3CLTEXTCLASS   			java/awt/peer/ComponentPeer(0xB54F9A78)
+3CLTEXTCLASS   			java/awt/Component$AWTTreeLock(0xB54F83E8)
+3CLTEXTCLASS   			java/awt/event/InputMethodListener(0xB54F1318)
+3CLTEXTCLASS   			java/io/ObjectOutput(0xB7FA9F38)
+3CLTEXTCLASS   			java/lang/StackOverflowError(0xB7FA5208)
+3CLTEXTCLASS   			java/lang/NoClassDefFoundError(0xB7FA0018)
+3CLTEXTCLASS   			java/net/URLClassLoader$3(0xB536A8B8)
+3CLTEXTCLASS   			sun/awt/im/ExecutableInputMethodManager(0xB5369A78)
+3CLTEXTCLASS   			sun/awt/motif/MFramePeer(0xB5360D28)
+3CLTEXTCLASS   			javax/swing/UIDefaults$ActiveValue(0xB54FC9F8)
+3CLTEXTCLASS   			javax/swing/JFrame(0xB54F7DF8)
+3CLTEXTCLASS   			java/lang/NumberFormatException(0xB54F5A58)
+3CLTEXTCLASS   			java/util/HashMap$EntryIterator(0xB54F1EF8)
+3CLTEXTCLASS   			java/security/AllPermission(0xB5987478)
+3CLTEXTCLASS   			java/util/jar/JarFile(0xB5984758)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Field;(0xB5983588)
+3CLTEXTCLASS   			com/ibm/jvm/io/ConsoleInputStream(0xB7FAEEC8)
+3CLTEXTCLASS   			java/util/Collections$EmptyMap(0xB7FAD4A8)
+3CLTEXTCLASS   			java/lang/Void(0xB7FA7B98)
+3CLTEXTCLASS   			[B(0xB7FA17D8)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Xbgr(0xB53629A8)
+3CLTEXTCLASS   			java/awt/Canvas(0xB5361908)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedCollection(0xB59883E8)
+3CLTEXTCLASS   			java/io/BufferedInputStream(0xB7FAEC68)
+3CLTEXTCLASS   			java/util/Hashtable$EmptyIterator(0xB7FA4758)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences$6(0xB536C9F8)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferencesFactory(0xB536BBB8)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitiveMgr$2(0xB5368C38)
+3CLTEXTCLASS   			sun/java2d/loops/RenderCache(0xB53663D8)
+3CLTEXTCLASS   			java/awt/image/ColorModel(0xB53637E8)
+3CLTEXTCLASS   			sun/reflect/UnsafeStaticIntegerFieldAccessorImpl(0xB54FA658)
+3CLTEXTCLASS   			sun/reflect/NativeMethodAccessorImpl(0xB54F6E88)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorGenerator$1(0xB54F4758)
+3CLTEXTCLASS   			java/util/TreeMap$Entry(0xB598C9F8)
+3CLTEXTCLASS   			java/lang/Terminator$1(0xB5980F88)
+3CLTEXTCLASS   			java/lang/ref/Reference(0xB7FAB368)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitiveProxy(0xB53688A8)
+3CLTEXTCLASS   			sun/java2d/loops/DrawPolygons(0xB5368188)
+3CLTEXTCLASS   			sun/awt/ConstrainableGraphics(0xB5367348)
+3CLTEXTCLASS   			java/awt/DefaultFocusTraversalPolicy(0xB54FA068)
+3CLTEXTCLASS   			java/util/Vector$1(0xB54F36B8)
+3CLTEXTCLASS   			sun/awt/ComponentFactory(0xB598AC48)
+3CLTEXTCLASS   			java/io/Reader(0xB59896E8)
+3CLTEXTCLASS   			java/lang/Package(0xB5985A58)
+3CLTEXTCLASS   			sun/misc/Launcher$AppClassLoader(0xB59837E8)
+3CLTEXTCLASS   			sun/reflect/ClassFileConstants(0xB54F3DD8)
+3CLTEXTCLASS   			java/lang/ThreadLocal(0xB7FA8518)
+3CLTEXTCLASS   			java/util/Comparator(0xB7FA11E8)
+3CLTEXTCLASS   			sun/awt/X11Renderer(0xB5368FC8)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Rgbx(0xB5363458)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicRootPaneUI(0xB54FF388)
+3CLTEXTCLASS   			javax/swing/InternalFrameFocusTraversalPolicy(0xB54FD708)
+3CLTEXTCLASS   			javax/swing/UIManager$1(0xB54FB828)
+3CLTEXTCLASS   			sun/security/provider/PolicyFile$1(0xB54F2E68)
+3CLTEXTCLASS   			java/util/jar/Manifest(0xB5985B88)
+3CLTEXTCLASS   			com/ibm/jvm/ExtendedSystem$2(0xB5982C08)
+3CLTEXTCLASS   			java/io/PrintStream(0xB59803A8)
+3CLTEXTCLASS   			java/lang/reflect/ReflectPermission(0xB7FA5CB8)
+3CLTEXTCLASS   			javax/swing/RepaintManager$1(0xB54FEB38)
+3CLTEXTCLASS   			javax/swing/SortingFocusTraversalPolicy(0xB54FD5D8)
+3CLTEXTCLASS   			javax/swing/UIDefaults$LazyInputMap(0xB54FCEB8)
+3CLTEXTCLASS   			sun/misc/URLClassPath$7(0xB54F6C28)
+3CLTEXTCLASS   			java/awt/event/ActionListener(0xB54F0E58)
+3CLTEXTCLASS   			java/util/TreeMap(0xB598BA88)
+3CLTEXTCLASS   			com/ibm/jvm/classloader/Middleware(0xB7FA4FA8)
+3CLTEXTCLASS   			[D(0xB7FA2618)
+3CLTEXTCLASS   			javax/swing/SystemEventQueueUtilities$SystemEventQueue(0xB536D968)
+3CLTEXTCLASS   			java/util/Collections$6(0xB54F56C8)
+3CLTEXTCLASS   			java/awt/AWTEvent(0xB54F6638)
+3CLTEXTCLASS   			java/util/MissingResourceException(0xB598DE28)
+3CLTEXTCLASS   			sun/awt/AWTAutoShutdown$PeerMap(0xB598B108)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/URLJarFile(0xB5989228)
+3CLTEXTCLASS   			sun/misc/URLClassPath$2(0xB536A528)
+3CLTEXTCLASS   			javax/swing/AbstractAction(0xB5360608)
+3CLTEXTCLASS   			javax/swing/JLayeredPane(0xB54FED98)
+3CLTEXTCLASS   			java/awt/geom/Dimension2D(0xB598F4B8)
+3CLTEXTCLASS   			java/awt/GraphicsEnvironment(0xB598A198)
+3CLTEXTCLASS   			java/util/Hashtable$EntrySet(0xB5989CD8)
+3CLTEXTCLASS   			java/net/Parts(0xB5982618)
+3CLTEXTCLASS   			sun/reflect/UnsafeFieldAccessorFactory(0xB5980AC8)
+3CLTEXTCLASS   			java/io/ObjectStreamConstants(0xB7FA9BA8)
+3CLTEXTCLASS   			sun/reflect/ConstructorAccessorImpl(0xB7FA56C8)
+3CLTEXTCLASS   			java/lang/ClassNotFoundException(0xB7FA3918)
+3CLTEXTCLASS   			java/lang/Cloneable(0xB7FA31F8)
+3CLTEXTCLASS   			sun/awt/dnd/SunDropTargetEvent(0xB51F1318)
+3CLTEXTCLASS   			sun/java2d/Disposer(0xB53695B8)
+3CLTEXTCLASS   			sun/java2d/pipe/SpanShapeRenderer$Composite(0xB5365F18)
+3CLTEXTCLASS   			javax/swing/KeyboardManager(0xB5360148)
+3CLTEXTCLASS   			java/awt/BorderLayout(0xB54F90F8)
+3CLTEXTCLASS   			sun/security/action/GetBooleanAction(0xB54F2748)
+3CLTEXTCLASS   			java/awt/Cursor(0xB598F258)
+3CLTEXTCLASS   			java/awt/ImageCapabilities(0xB598D968)
+3CLTEXTCLASS   			java/util/EventListener(0xB5987A68)
+3CLTEXTCLASS   			java/lang/reflect/Array(0xB5982158)
+3CLTEXTCLASS   			sun/reflect/UnsafeStaticBooleanFieldAccessorImpl(0xB5980D28)
+3CLTEXTCLASS   			java/io/Writer(0xB5980608)
+3CLTEXTCLASS   			sun/misc/Signal(0xB7FA8B08)
+3CLTEXTCLASS   			sun/awt/dnd/SunDragSourceContextPeer(0xB51F0AC8)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitive(0xB5366C28)
+3CLTEXTCLASS   			javax/swing/UIDefaults$1(0xB54FE1B8)
+3CLTEXTCLASS   			java/awt/Insets(0xB54F9818)
+3CLTEXTCLASS   			java/net/URI(0xB54F30C8)
+3CLTEXTCLASS   			sun/misc/Launcher$5(0xB5988D68)
+3CLTEXTCLASS   			java/lang/ref/ReferenceQueue$Lock(0xB7FA7218)
+3CLTEXTCLASS   			sun/java2d/pipe/DuctusRenderer(0xB5365CB8)
+3CLTEXTCLASS   			javax/swing/LayoutFocusTraversalPolicy(0xB54FD4A8)
+3CLTEXTCLASS   			javax/swing/WindowConstants(0xB54F8188)
+3CLTEXTCLASS   			com/ibm/security/util/PropertyExpander(0xB54F2F98)
+3CLTEXTCLASS   			sun/awt/PostEventQueue(0xB598E548)
+3CLTEXTCLASS   			sun/awt/motif/MToolkit$1(0xB598DA98)
+3CLTEXTCLASS   			java/lang/ThreadLocal$ThreadLocalMap(0xB7FAC078)
+3CLTEXTCLASS   			java/security/AccessController(0xB7FA63D8)
+3CLTEXTCLASS   			java/awt/image/RenderedImage(0xB536F4B8)
+3CLTEXTCLASS   			java/awt/color/ICC_ProfileRGB(0xB5364038)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Ushort555Rgbx(0xB5362F98)
+3CLTEXTCLASS   			sun/awt/motif/MInputMethodControl(0xB53617D8)
+3CLTEXTCLASS   			[Ljava/security/ProtectionDomain;(0xB54F5F18)
+3CLTEXTCLASS   			java/lang/Shutdown$Lock(0xB598F978)
+3CLTEXTCLASS   			sun/awt/PlatformFont(0xB598EC68)
+3CLTEXTCLASS   			java/io/ByteArrayOutputStream(0xB59862A8)
+3CLTEXTCLASS   			[Ljava/lang/ThreadGroup;(0xB7FAAFD8)
+3CLTEXTCLASS   			java/io/IOException(0xB7FA4AE8)
+3CLTEXTCLASS   			java/lang/String$CaseInsensitiveComparator(0xB7FA10B8)
+3CLTEXTCLASS   			java/util/prefs/Preferences(0xB536B958)
+3CLTEXTCLASS   			sun/java2d/loops/XORComposite(0xB5366638)
+3CLTEXTCLASS   			javax/swing/LayoutComparator(0xB54FDA98)
+3CLTEXTCLASS   			java/awt/KeyEventDispatcher(0xB54F9CD8)
+3CLTEXTCLASS   			java/awt/event/InvocationEvent(0xB54F69C8)
+3CLTEXTCLASS   			java/awt/event/MouseMotionListener(0xB54F0998)
+3CLTEXTCLASS   			[Ljava/net/URL;(0xB5983B78)
+3CLTEXTCLASS   			com/ibm/jvm/AllocationPolicy(0xB5982F98)
+3CLTEXTCLASS   			java/io/FilterOutputStream(0xB5980148)
+3CLTEXTCLASS   			java/lang/StringCoding$1(0xB7FAC538)
+3CLTEXTCLASS   			java/lang/reflect/Modifier(0xB7FAAC48)
+3CLTEXTCLASS   			java/lang/reflect/Member(0xB7FA5B88)
+3CLTEXTCLASS   			java/util/Vector(0xB7FA2AD8)
+3CLTEXTCLASS   			[J(0xB7FA2158)
+3CLTEXTCLASS   			java/awt/event/MouseEvent(0xB51F1448)
+3CLTEXTCLASS   			java/net/URLClassLoader$4(0xB536AB18)
+3CLTEXTCLASS   			sun/java2d/loops/DrawLine(0xB5367F28)
+3CLTEXTCLASS   			sun/java2d/loops/BlitBg(0xB5367A68)
+3CLTEXTCLASS   			java/beans/PropertyChangeListenerProxy(0xB54FF848)
+3CLTEXTCLASS   			sun/net/InetAddressCachePolicy$1(0xB54F5928)
+3CLTEXTCLASS   			java/lang/reflect/InvocationTargetException(0xB7FAA2C8)
+3CLTEXTCLASS   			sun/java2d/DefaultDisposerRecord(0xB53696E8)
+3CLTEXTCLASS   			sun/awt/X11PMBlitLoops$DelegateBlitLoop(0xB5368D68)
+3CLTEXTCLASS   			sun/security/provider/PolicyFile$5(0xB54F4E78)
+3CLTEXTCLASS   			sun/reflect/AccessorGenerator(0xB54F3CA8)
+3CLTEXTCLASS   			java/awt/Toolkit$ToolkitEventMulticaster(0xB54F0148)
+3CLTEXTCLASS   			java/util/TreeMap$KeyIterator(0xB598D248)
+3CLTEXTCLASS   			sun/reflect/DelegatingConstructorAccessorImpl(0xB7FAE418)
+3CLTEXTCLASS   			sun/reflect/LangReflectAccess(0xB7FAAEA8)
+3CLTEXTCLASS   			java/lang/InterruptedException(0xB7FA3CA8)
+3CLTEXTCLASS   			java/lang/Class(0xB7FA0148)
+3CLTEXTCLASS   			java/awt/image/PixelInterleavedSampleModel(0xB536EB38)
+3CLTEXTCLASS   			java/util/prefs/PreferenceChangeListener(0xB536CC58)
+3CLTEXTCLASS   			java/util/prefs/PreferencesFactory(0xB536BCE8)
+3CLTEXTCLASS   			sun/java2d/pipe/TextRenderer(0xB53657F8)
+3CLTEXTCLASS   			sun/java2d/pipe/Region(0xB5364D48)
+3CLTEXTCLASS   			java/awt/geom/AffineTransform(0xB54FE418)
+3CLTEXTCLASS   			javax/swing/plaf/ComponentUI(0xB54FE088)
+3CLTEXTCLASS   			java/lang/StringCoding$4(0xB7FADBC8)
+3CLTEXTCLASS   			java/lang/Float(0xB7FA7478)
+3CLTEXTCLASS   			java/util/RandomAccess(0xB7FA30C8)
+3CLTEXTCLASS   			java/awt/image/SinglePixelPackedSampleModel(0xB536E2E8)
+3CLTEXTCLASS   			java/awt/LightweightDispatcher(0xB536D5D8)
+3CLTEXTCLASS   			java/util/Timer(0xB536C1A8)
+3CLTEXTCLASS   			java/awt/Image(0xB536F258)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Ushort555Rgb(0xB5362E68)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicRootPaneUI$PostPopupAction(0xB5360868)
+3CLTEXTCLASS   			sun/misc/Cleaner(0xB54FE8D8)
+3CLTEXTCLASS   			java/awt/FlowLayout(0xB54FAFD8)
+3CLTEXTCLASS   			sun/awt/DebugHelperStub(0xB598A528)
+3CLTEXTCLASS   			sun/misc/Unsafe(0xB5980BF8)
+3CLTEXTCLASS   			javax/swing/JInternalFrame(0xB54FEFF8)
+3CLTEXTCLASS   			java/awt/Rectangle(0xB54F9488)
+3CLTEXTCLASS   			java/util/ResourceBundle$1(0xB5988C38)
+3CLTEXTCLASS   			java/util/jar/JarEntry(0xB5984D48)
+3CLTEXTCLASS   			java/net/URL(0xB59824E8)
+3CLTEXTCLASS   			sun/io/CharToByteISO8859_1(0xB536CFE8)
+3CLTEXTCLASS   			java/awt/Graphics2D(0xB53670E8)
+3CLTEXTCLASS   			java/awt/color/ICC_Profile$1(0xB5364168)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Rgba(0xB5362AD8)
+3CLTEXTCLASS   			sun/awt/im/InputMethodWindow(0xB5361B68)
+3CLTEXTCLASS   			javax/swing/ComponentInputMap(0xB54FFBD8)
+3CLTEXTCLASS   			java/awt/event/MouseWheelListener(0xB54F16A8)
+3CLTEXTCLASS   			java/lang/Shutdown$WrappedHook(0xB598FAA8)
+3CLTEXTCLASS   			java/lang/StackTraceElement(0xB598E8D8)
+3CLTEXTCLASS   			sun/misc/Service(0xB536A068)
+3CLTEXTCLASS   			sun/java2d/pipe/ShapeDrawPipe(0xB5364888)
+3CLTEXTCLASS   			sun/awt/DisplayChangedListener(0xB5361578)
+3CLTEXTCLASS   			sun/awt/motif/MWindowPeer(0xB5360E58)
+3CLTEXTCLASS   			java/awt/event/KeyEvent(0xB54F8518)
+3CLTEXTCLASS   			java/util/HashMap$EntrySet(0xB54F1DC8)
+3CLTEXTCLASS   			java/awt/event/ContainerListener(0xB54F04D8)
+3CLTEXTCLASS   			sun/awt/AppContext$2(0xB598E418)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment$T2KFilter(0xB598CC58)
+3CLTEXTCLASS   			com/ibm/misc/CharacterDecoder(0xB5986768)
+3CLTEXTCLASS   			sun/io/ByteToCharUTF8(0xB5986048)
+3CLTEXTCLASS   			java/lang/reflect/Field(0xB7FA6898)
+3CLTEXTCLASS   			java/util/Collection(0xB7FA2E68)
+3CLTEXTCLASS   			[S(0xB7FA1C98)
+3CLTEXTCLASS   			java/awt/dnd/peer/DragSourceContextPeer(0xB51F0BF8)
+3CLTEXTCLASS   			sun/java2d/loops/SurfaceType(0xB53623B8)
+3CLTEXTCLASS   			java/awt/peer/FramePeer(0xB5360998)
+3CLTEXTCLASS   			sun/awt/motif/MToolkit$2(0xB598F5E8)
+3CLTEXTCLASS   			[Ljava/lang/StackTraceElement;(0xB598EA08)
+3CLTEXTCLASS   			java/lang/Compiler(0xB5983DD8)
+3CLTEXTCLASS   			java/util/BitSet(0xB59823B8)
+3CLTEXTCLASS   			java/util/AbstractCollection(0xB7FA2D38)
+3CLTEXTCLASS   			sun/security/provider/PolicyFile$3(0xB54F4C18)
+3CLTEXTCLASS   			java/util/zip/ZipFile$1(0xB5985468)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/Handler(0xB5983A48)
+3CLTEXTCLASS   			java/lang/ref/FinalReference(0xB7FAB958)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$FieldReflector(0xB7FAAB18)
+3CLTEXTCLASS   			java/util/Hashtable$Entry(0xB7FA8648)
+3CLTEXTCLASS   			java/lang/IllegalArgumentException(0xB7FA3DD8)
+3CLTEXTCLASS   			java/awt/Panel(0xB51F10B8)
+3CLTEXTCLASS   			sun/java2d/pipe/OutlineTextRenderer(0xB5364FA8)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment$2(0xB598CFE8)
+3CLTEXTCLASS   			java/awt/EventDispatchThread$1(0xB51F0608)
+3CLTEXTCLASS   			sun/awt/EventQueueItem(0xB51F0278)
+3CLTEXTCLASS   			java/util/Timer$1(0xB536C668)
+3CLTEXTCLASS   			javax/swing/plaf/ComponentInputMapUIResource(0xB54FFAA8)
+3CLTEXTCLASS   			sun/security/provider/PolicyFile$PolicyEntry(0xB54F37E8)
+3CLTEXTCLASS   			java/io/DataInputStream(0xB5985208)
+3CLTEXTCLASS   			java/lang/ref/Reference$ReferenceHandler(0xB7FAB5C8)
+3CLTEXTCLASS   			[Ljava/io/ObjectStreamField;(0xB7FA9358)
+3CLTEXTCLASS   			java/lang/Long$1(0xB7FA88A8)
+3CLTEXTCLASS   			java/lang/Character(0xB7FA7DF8)
+3CLTEXTCLASS   			java/security/Permission(0xB7FA5F18)
+3CLTEXTCLASS   			sun/awt/image/RasterListener(0xB536F5E8)
+3CLTEXTCLASS   			sun/java2d/loops/FillSpans(0xB5367DF8)
+3CLTEXTCLASS   			javax/swing/InputMap(0xB54FFD08)
+3CLTEXTCLASS   			sun/awt/AppContext$PostShutdownEventRunnable(0xB54F63D8)
+3CLTEXTCLASS   			sun/security/provider/PolicyParser$GrantEntry(0xB54F3458)
+3CLTEXTCLASS   			javax/security/auth/AuthPermission(0xB54F2878)
+3CLTEXTCLASS   			java/io/InvalidClassException(0xB7FA9488)
+3CLTEXTCLASS   			java/lang/Exception(0xB7FA36B8)
+3CLTEXTCLASS   			java/lang/Error(0xB7FA3588)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences$2(0xB536CB28)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Argb(0xB5362748)
+3CLTEXTCLASS   			sun/awt/RepaintArea(0xB54F8C38)
+3CLTEXTCLASS   			java/awt/event/ComponentEvent(0xB54F8778)
+3CLTEXTCLASS   			java/security/Policy(0xB54F29A8)
+3CLTEXTCLASS   			java/awt/event/TextListener(0xB54F11E8)
+3CLTEXTCLASS   			java/lang/ClassLoader$Finalizer(0xB59829A8)
+3CLTEXTCLASS   			java/io/OutputStream(0xB7FA9E08)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory$GetReflectionFactoryAction(0xB7FA6178)
+3CLTEXTCLASS   			java/awt/SequencedEvent(0xB51F0E58)
+3CLTEXTCLASS   			sun/awt/im/ExecutableInputMethodManager$1(0xB5369F38)
+3CLTEXTCLASS   			sun/java2d/pipe/ValidatePipe(0xB5367808)
+3CLTEXTCLASS   			java/util/HashMap$ValueIterator(0xB54F5598)
+3CLTEXTCLASS   			java/net/URLClassLoader$2(0xB5989F38)
+3CLTEXTCLASS   			sun/misc/FileURLMapper(0xB5984628)
+3CLTEXTCLASS   			java/util/Collections$EmptyList(0xB7FAD378)
+3CLTEXTCLASS   			java/lang/Number(0xB7FA75A8)
+3CLTEXTCLASS   			java/util/List(0xB7FA2F98)
+3CLTEXTCLASS   			javax/swing/plaf/ActionMapUIResource(0xB5360278)
+3CLTEXTCLASS   			javax/swing/JRootPane$1(0xB54FEEC8)
+3CLTEXTCLASS   			javax/swing/border/Border(0xB54FEC68)
+3CLTEXTCLASS   			java/awt/Component(0xB54F7218)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/JarFileFactory(0xB59890F8)
+3CLTEXTCLASS   			java/util/jar/Manifest$FastInputStream(0xB5985F18)
+3CLTEXTCLASS   			java/io/OutputStreamWriter(0xB59804D8)
+3CLTEXTCLASS   			com/ibm/jvm/io/FileOutputStream(0xB7FAEA08)
+3CLTEXTCLASS   			java/lang/Boolean(0xB7FA7CC8)
+3CLTEXTCLASS   			java/util/Hashtable$EmptyEnumerator(0xB7FA44F8)
+3CLTEXTCLASS   			sun/awt/image/SunWritableRaster(0xB536E7A8)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitiveMgr$1(0xB5368B08)
+3CLTEXTCLASS   			sun/java2d/pipe/DrawImage(0xB53662A8)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorGenerator(0xB54F3B78)
+3CLTEXTCLASS   			java/util/SortedMap(0xB598BBB8)
+3CLTEXTCLASS   			sun/awt/image/AcceleratedOffScreenImage(0xB536EEC8)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitiveMgr$PrimitiveSpec(0xB5369358)
+3CLTEXTCLASS   			javax/swing/FocusManager(0xB54FD378)
+3CLTEXTCLASS   			sun/awt/WindowClosingListener(0xB598AB18)
+3CLTEXTCLASS   			sun/awt/font/FontDesignMetrics(0xB5367938)
+3CLTEXTCLASS   			javax/swing/plaf/UIResource(0xB54FC1A8)
+3CLTEXTCLASS   			java/lang/Shutdown(0xB598F848)
+3CLTEXTCLASS   			java/io/File(0xB7FAF4B8)
+3CLTEXTCLASS   			sun/reflect/Reflection(0xB7FA90F8)
+3CLTEXTCLASS   			java/lang/ClassLoader$3(0xB536A658)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$UshortGray(0xB5363328)
+3CLTEXTCLASS   			sun/awt/motif/MWindowAttributes(0xB5361A38)
+3CLTEXTCLASS   			javax/swing/SwingContainerOrderFocusTraversalPolicy(0xB54FD838)
+3CLTEXTCLASS   			java/awt/Window(0xB54F8058)
+3CLTEXTCLASS   			[Ljava/security/cert/Certificate;(0xB5982E68)
+3CLTEXTCLASS   			java/lang/ref/ReferenceQueue(0xB7FA6FB8)
+3CLTEXTCLASS   			java/lang/System(0xB7FA6768)
+3CLTEXTCLASS   			java/lang/OutOfMemoryError(0xB7FA3F08)
+3CLTEXTCLASS   			javax/swing/SwingDefaultFocusTraversalPolicy(0xB54FD968)
+3CLTEXTCLASS   			java/awt/geom/Rectangle2D(0xB54F95B8)
+3CLTEXTCLASS   			javax/swing/JComponent(0xB54F76D8)
+3CLTEXTCLASS   			java/awt/event/WindowFocusListener(0xB54F0BF8)
+3CLTEXTCLASS   			java/awt/GraphicsConfiguration(0xB598D838)
+3CLTEXTCLASS   			java/lang/IllegalStateException(0xB5987DF8)
+3CLTEXTCLASS   			sun/misc/Resource(0xB5985928)
+3CLTEXTCLASS   			sun/awt/image/IntegerComponentRaster(0xB536F718)
+3CLTEXTCLASS   			java/beans/PropertyChangeEvent(0xB54FD248)
+3CLTEXTCLASS   			sun/net/InetAddressCachePolicy$2(0xB54F5CB8)
+3CLTEXTCLASS   			java/lang/Compiler$1(0xB5983F08)
+3CLTEXTCLASS   			sun/misc/URLClassPath$1(0xB536A788)
+3CLTEXTCLASS   			javax/swing/AbstractAction$ArrayTable(0xB5360018)
+3CLTEXTCLASS   			javax/swing/SwingUtilities(0xB54FA9E8)
+3CLTEXTCLASS   			java/util/PropertyPermission(0xB54F3918)
+3CLTEXTCLASS   			java/util/Hashtable$KeySet(0xB598CD88)
+3CLTEXTCLASS   			com/ibm/misc/BASE64Decoder(0xB5986638)
+3CLTEXTCLASS   			java/util/zip/ZipConstants(0xB7FAF258)
+3CLTEXTCLASS   			java/io/ObjectInput(0xB7FA9948)
+3CLTEXTCLASS   			java/lang/Throwable(0xB7FA03A8)
+3CLTEXTCLASS   			sun/java2d/pipe/AlphaPaintPipe(0xB5365DE8)
+3CLTEXTCLASS   			java/net/SocketPermissionCollection(0xB54F50D8)
+3CLTEXTCLASS   			sun/reflect/ClassDefiner$1(0xB54F49B8)
+3CLTEXTCLASS   			java/security/Policy$1(0xB54F2AD8)
+3CLTEXTCLASS   			sun/misc/JarFilter(0xB5981C98)
+3CLTEXTCLASS   			sun/awt/NullComponentPeer(0xB536DA98)
+3CLTEXTCLASS   			sun/awt/FontDescriptor(0xB536D118)
+3CLTEXTCLASS   			java/util/prefs/AbstractPreferences(0xB536BF48)
+3CLTEXTCLASS   			sun/awt/X11PMBlitBgLoops(0xB5368E98)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicRootPaneUI$AltProcessor(0xB54FF718)
+3CLTEXTCLASS   			java/awt/event/AWTEventListener(0xB5987938)
+3CLTEXTCLASS   			java/security/SecureClassLoader(0xB7FA6AF8)
+3CLTEXTCLASS   			java/util/Properties(0xB7FA49B8)
+3CLTEXTCLASS   			sun/io/CharToByteISO8859_15(0xB536D248)
+3CLTEXTCLASS   			sun/java2d/NullSurfaceData(0xB5362288)
+3CLTEXTCLASS   			javax/swing/UIDefaults(0xB54FB498)
+3CLTEXTCLASS   			java/awt/Shape(0xB54F7938)
+3CLTEXTCLASS   			javax/swing/JPanel(0xB54F75A8)
+3CLTEXTCLASS   			sun/reflect/Label$PatchInfo(0xB54F4628)
+3CLTEXTCLASS   			java/security/Security$1(0xB54F1A38)
+3CLTEXTCLASS   			sun/awt/AppContext(0xB598E1B8)
+3CLTEXTCLASS   			sun/awt/X11GraphicsConfig(0xB598D708)
+3CLTEXTCLASS   			java/util/WeakHashMap$Entry(0xB598B368)
+3CLTEXTCLASS   			java/util/ResourceBundle$ResourceCacheKey(0xB59888A8)
+3CLTEXTCLASS   			java/security/CodeSource(0xB5986898)
+3CLTEXTCLASS   			sun/io/CharToByteASCII(0xB7FADF58)
+3CLTEXTCLASS   			java/lang/Runnable(0xB7FA2878)
+3CLTEXTCLASS   			java/awt/image/DataBufferUShort(0xB536DE28)
+3CLTEXTCLASS   			javax/swing/plaf/metal/MetalLookAndFeel(0xB54FBA88)
+3CLTEXTCLASS   			[Ljava/security/Principal;(0xB54F4D48)
+3CLTEXTCLASS   			sun/security/provider/PolicyInfo(0xB54F2D38)
+3CLTEXTCLASS   			java/lang/SecurityManager$1(0xB54F17D8)
+3CLTEXTCLASS   			java/util/LinkedList$Entry(0xB5988188)
+3CLTEXTCLASS   			[Ljava/lang/Object;(0xB7FAA8B8)
+3CLTEXTCLASS   			java/io/ObjectStreamField(0xB7FA0F88)
+3CLTEXTCLASS   			sun/awt/im/ExecutableInputMethodManager$2(0xB536B828)
+3CLTEXTCLASS   			java/util/TreeSet(0xB536A2C8)
+3CLTEXTCLASS   			java/net/URLClassLoader$5(0xB54F6D58)
+3CLTEXTCLASS   			java/awt/event/MouseListener(0xB54F0868)
+3CLTEXTCLASS   			sun/awt/font/NativeFontWrapper(0xB598BCE8)
+3CLTEXTCLASS   			sun/misc/VM(0xB5981318)
+3CLTEXTCLASS   			java/util/HashMap(0xB7FA7348)
+3CLTEXTCLASS   			java/lang/reflect/AccessibleObject(0xB7FA5A58)
+3CLTEXTCLASS   			java/awt/EventQueueItem(0xB51F0998)
+3CLTEXTCLASS   			[Ljava/io/ObjectStreamClass$ClassDataSlot;(0xB7FAA788)
+3CLTEXTCLASS   			java/lang/InstantiationException(0xB7FAA198)
+3CLTEXTCLASS   			sun/awt/X11GraphicsDevice(0xB598D5D8)
+3CLTEXTCLASS   			java/io/InputStreamReader(0xB5989818)
+3CLTEXTCLASS   			java/awt/Toolkit$3(0xB5988648)
+3CLTEXTCLASS   			java/util/zip/Inflater(0xB59856C8)
+3CLTEXTCLASS   			sun/reflect/NativeConstructorAccessorImpl(0xB7FAE2E8)
+3CLTEXTCLASS   			sun/java2d/pipe/AlphaColorPipe(0xB5365468)
+3CLTEXTCLASS   			java/awt/image/DirectColorModel(0xB5363918)
+3CLTEXTCLASS   			java/net/UnknownContentHandler(0xB5986E88)
+3CLTEXTCLASS   			sun/security/util/Debug(0xB5981A38)
+3CLTEXTCLASS   			java/lang/StringCoding$EncoderCache(0xB7FADA98)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$ClassDataSlot(0xB7FAA658)
+3CLTEXTCLASS   			java/util/AbstractList(0xB7FA2C08)
+3CLTEXTCLASS   			java/awt/image/WritableRaster(0xB536E8D8)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences$1(0xB536C078)
+3CLTEXTCLASS   			sun/java2d/loops/FillRect(0xB5367CC8)
+3CLTEXTCLASS   			java/awt/peer/CanvasPeer(0xB5361448)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicRootPaneUI$DefaultAction(0xB53604D8)
+3CLTEXTCLASS   			java/net/ContentHandler(0xB5986FB8)
+3CLTEXTCLASS   			java/net/URLClassLoader(0xB5981908)
+3CLTEXTCLASS   			java/io/FileInputStream(0xB7FAE7A8)
+3CLTEXTCLASS   			java/security/Guard(0xB7FA6048)
+3CLTEXTCLASS   			java/applet/Applet(0xB51F0F88)
+3CLTEXTCLASS   			sun/java2d/pipe/SpanShapeRenderer(0xB5366048)
+3CLTEXTCLASS   			javax/swing/plaf/metal/MetalTheme(0xB54FBE18)
+3CLTEXTCLASS   			sun/awt/FontProperties$1(0xB598C1A8)
+3CLTEXTCLASS   			java/util/jar/JarVerifier(0xB5986178)
+3CLTEXTCLASS   			java/util/jar/Attributes(0xB5985DE8)
+3CLTEXTCLASS   			java/io/ByteArrayInputStream(0xB5985CB8)
+3CLTEXTCLASS   			java/util/zip/ZipFile(0xB7FAF128)
+3CLTEXTCLASS   			java/security/BasicPermission(0xB7FA5DE8)
+3CLTEXTCLASS   			sun/awt/motif/MFontPeer$1(0xB536CEB8)
+3CLTEXTCLASS   			javax/swing/KeyStroke(0xB54FFE38)
+3CLTEXTCLASS   			java/awt/event/HierarchyBoundsListener(0xB54F1578)
+3CLTEXTCLASS   			java/io/FilenameFilter(0xB5981DC8)
+3CLTEXTCLASS   			java/security/AccessControlContext(0xB7FAB108)
+3CLTEXTCLASS   			java/lang/reflect/ReflectAccess(0xB7FAAD78)
+3CLTEXTCLASS   			java/lang/Class$3(0xB7FA9228)
+3CLTEXTCLASS   			java/lang/IncompatibleClassChangeError(0xB7FA7A68)
+3CLTEXTCLASS   			sun/reflect/DelegatingClassLoader(0xB7FA5338)
+3CLTEXTCLASS   			java/lang/LinkageError(0xB7FA3A48)
+3CLTEXTCLASS   			java/awt/event/WindowEvent(0xB51F0D28)
+3CLTEXTCLASS   			java/util/SortedSet(0xB536A3F8)
+3CLTEXTCLASS   			sun/java2d/pipe/PixelFillPipe(0xB5364758)
+3CLTEXTCLASS   			sun/awt/motif/MPanelPeer(0xB5360F88)
+3CLTEXTCLASS   			java/awt/font/TextAttribute(0xB54FE548)
+3CLTEXTCLASS   			java/awt/geom/RectangularShape(0xB54F96E8)
+3CLTEXTCLASS   			java/util/HashMap$Values(0xB54F5468)
+3CLTEXTCLASS   			java/security/PermissionsEnumerator(0xB54F5338)
+3CLTEXTCLASS   			sun/reflect/ByteVectorImpl(0xB54F4038)
+3CLTEXTCLASS   			java/awt/event/ComponentListener(0xB54F03A8)
+3CLTEXTCLASS   			sun/java2d/SunGraphicsEnvironment$T1Filter(0xB598CB28)
+3CLTEXTCLASS   			java/util/HashSet(0xB598AFD8)
+3CLTEXTCLASS   			java/net/JarURLConnection(0xB5988FC8)
+3CLTEXTCLASS   			sun/misc/NativeSignalHandler(0xB59811E8)
+3CLTEXTCLASS   			com/ibm/jvm/io/ConsolePrintStream(0xB5980278)
+3CLTEXTCLASS   			java/io/FileNotFoundException(0xB7FA4C18)
+3CLTEXTCLASS   			java/awt/GraphicsCallback$PaintCallback(0xB54F88A8)
+3CLTEXTCLASS   			sun/misc/URLClassPath$JarLoader(0xB59843C8)
+3CLTEXTCLASS   			sun/nio/cs/StreamEncoder$ConverterSE(0xB5980868)
+3CLTEXTCLASS   			java/lang/IllegalAccessException(0xB7FAA528)
+3CLTEXTCLASS   			java/lang/Short(0xB7FA8188)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences(0xB536BE18)
+3CLTEXTCLASS   			sun/java2d/loops/MaskFill(0xB53683E8)
+3CLTEXTCLASS   			javax/swing/plaf/metal/MetalLookAndFeel$FontActiveValue(0xB54FD118)
+3CLTEXTCLASS   			sun/reflect/Label(0xB54F44F8)
+3CLTEXTCLASS   			java/awt/Toolkit$SelectiveAWTEventListener(0xB54F0018)
+3CLTEXTCLASS   			java/util/zip/ZipFile$ZipFileInputStream(0xB7FAFD08)
+3CLTEXTCLASS   			java/lang/ref/WeakReference(0xB7FAB828)
+3CLTEXTCLASS   			sun/awt/image/DataBufferNative(0xB536FBD8)
+3CLTEXTCLASS   			java/awt/image/BufferedImage(0xB536F128)
+3CLTEXTCLASS   			sun/java2d/loops/MaskBlit(0xB53682B8)
+3CLTEXTCLASS   			sun/java2d/pipe/LoopPipe(0xB5364E78)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter(0xB53624E8)
+3CLTEXTCLASS   			javax/swing/JComponent$EnableSerializationFocusListener(0xB54FAEA8)
+3CLTEXTCLASS   			java/awt/ContainerOrderFocusTraversalPolicy$MutableBoolean(0xB54FA3F8)
+3CLTEXTCLASS   			sun/awt/motif/MToolkit(0xB598A788)
+3CLTEXTCLASS   			com/ibm/jvm/Constants(0xB598A068)
+3CLTEXTCLASS   			java/lang/ClassLoader$NativeLibrary(0xB7FAFBD8)
+3CLTEXTCLASS   			java/util/TimerThread(0xB536C538)
+3CLTEXTCLASS   			java/awt/SystemColor(0xB5361C98)
+3CLTEXTCLASS   			java/awt/GraphicsCallback(0xB54F89D8)
+3CLTEXTCLASS   			java/security/BasicPermissionCollection(0xB59876D8)
+3CLTEXTCLASS   			sun/io/ByteToCharASCII(0xB7FAE548)
+3CLTEXTCLASS   			java/lang/ref/Reference$Lock(0xB7FAB498)
+3CLTEXTCLASS   			java/awt/Point(0xB536E088)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$Bgrx(0xB5363588)
+3CLTEXTCLASS   			java/awt/dnd/peer/DropTargetPeer(0xB5361318)
+3CLTEXTCLASS   			sun/security/util/SecurityConstants(0xB54F2158)
+3CLTEXTCLASS   			java/util/jar/Attributes$Name(0xB7FA8E98)
+3CLTEXTCLASS   			java/lang/NoSuchMethodError(0xB7FA7938)
+3CLTEXTCLASS   			java/security/PrivilegedActionException(0xB7FA4D48)
+3CLTEXTCLASS   			sun/java2d/loops/FontInfo(0xB536F978)
+3CLTEXTCLASS   			java/awt/AWTPermission(0xB54F2288)
+3CLTEXTCLASS   			java/awt/event/AdjustmentListener(0xB54F10B8)
+3CLTEXTCLASS   			sun/awt/motif/MFontPeer(0xB598EB38)
+3CLTEXTCLASS   			sun/misc/SharedSecrets(0xB5984AE8)
+3CLTEXTCLASS   			com/ibm/jvm/Trace(0xB5984038)
+3CLTEXTCLASS   			com/ibm/jvm/classloader/TransientAllocation(0xB7FA50D8)
+3CLTEXTCLASS   			java/awt/EventDispatchThread(0xB51F04D8)
+3CLTEXTCLASS   			sun/java2d/loops/GraphicsPrimitiveMgr(0xB5366D58)
+3CLTEXTCLASS   			sun/java2d/InvalidPipeException(0xB5362158)
+3CLTEXTCLASS   			java/util/HashMap$KeyIterator(0xB598C668)
+3CLTEXTCLASS   			sun/awt/motif/MFontProperties(0xB598BF48)
+3CLTEXTCLASS   			java/security/ProtectionDomain(0xB59831F8)
+3CLTEXTCLASS   			java/util/Collections$EmptySet(0xB7FACFE8)
+3CLTEXTCLASS   			[Z(0xB7FA1578)
+3CLTEXTCLASS   			sun/java2d/loops/DrawGlyphList(0xB5368518)
+3CLTEXTCLASS   			java/awt/AWTEventMulticaster(0xB54F0278)
+3CLTEXTCLASS   			java/util/AbstractList$Itr(0xB598CEB8)
+3CLTEXTCLASS   			sun/awt/X11GraphicsEnvironment$2(0xB598C2D8)
+3CLTEXTCLASS   			sun/nio/cs/StreamDecoder$ConverterSD(0xB5989A78)
+3CLTEXTCLASS   			sun/misc/URLClassPath$3(0xB5984298)
+3CLTEXTCLASS   			sun/reflect/UnsafeObjectFieldAccessorImpl(0xB59836B8)
+3CLTEXTCLASS   			java/io/BufferedWriter(0xB5980998)
+3CLTEXTCLASS   			com/ibm/jvm/io/FileInputStream(0xB7FAE678)
+3CLTEXTCLASS   			java/util/Collections$UnmodifiableMap(0xB7FAD708)
+3CLTEXTCLASS   			sun/reflect/ConstructorAccessor(0xB7FA57F8)
+3CLTEXTCLASS   			javax/swing/SystemEventQueueUtilities$ComponentWorkRequest(0xB51F11E8)
+3CLTEXTCLASS   			java/awt/Composite(0xB5366768)
+3CLTEXTCLASS   			sun/java2d/pipe/GeneralCompositePipe(0xB5366178)
+3CLTEXTCLASS   			java/util/Collections(0xB7FACD88)
+3CLTEXTCLASS   			javax/swing/UIManager(0xB54FB108)
+3CLTEXTCLASS   			javax/accessibility/Accessible(0xB54F7808)
+3CLTEXTCLASS   			java/awt/GraphicsDevice(0xB598D4A8)
+3CLTEXTCLASS   			sun/awt/WindowClosingSupport(0xB598A9E8)
+3CLTEXTCLASS   			java/io/FilePermissionCollection(0xB5987348)
+3CLTEXTCLASS   			java/util/zip/InflaterInputStream(0xB5985598)
+3CLTEXTCLASS   			java/net/URLStreamHandlerFactory(0xB59816A8)
+3CLTEXTCLASS   			java/util/Locale(0xB7FAD838)
+3CLTEXTCLASS   			java/lang/ref/Finalizer(0xB7FABA88)
+3CLTEXTCLASS   			java/lang/ref/ReferenceQueue$Null(0xB7FA70E8)
+3CLTEXTCLASS   			sun/awt/CharToByteSymbol(0xB536D4A8)
+3CLTEXTCLASS   			java/awt/color/ColorSpace(0xB5363B78)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicPanelUI(0xB54FDE28)
+3CLTEXTCLASS   			java/util/ResourceBundleEnumeration(0xB54FDCF8)
+3CLTEXTCLASS   			sun/awt/PeerEvent(0xB54F6898)
+3CLTEXTCLASS   			java/util/PropertyPermissionCollection(0xB54F5208)
+3CLTEXTCLASS   			java/security/Security(0xB54F1908)
+3CLTEXTCLASS   			java/util/EventListenerProxy(0xB598FE38)
+3CLTEXTCLASS   			sun/misc/PerformanceLogger(0xB598E678)
+3CLTEXTCLASS   			sun/java2d/FontSupport(0xB598B958)
+3CLTEXTCLASS   			sun/security/util/ManifestEntryVerifier(0xB5986508)
+3CLTEXTCLASS   			java/lang/Math(0xB5985338)
+3CLTEXTCLASS   			java/util/StringTokenizer(0xB7FAF978)
+3CLTEXTCLASS   			sun/misc/CompoundEnumeration(0xB536A9E8)
+3CLTEXTCLASS   			sun/awt/font/X11TextRenderer(0xB5366898)
+3CLTEXTCLASS   			sun/awt/image/PixelConverter$ByteGray(0xB53631F8)
+3CLTEXTCLASS   			javax/swing/plaf/basic/BasicLookAndFeel$1(0xB54FCC58)
+3CLTEXTCLASS   			java/awt/Font(0xB54FC538)
+3CLTEXTCLASS   			sun/awt/SunGraphicsCallback(0xB54F8B08)
+3CLTEXTCLASS   			sun/reflect/UTF8(0xB54F43C8)
+3CLTEXTCLASS   			sun/awt/motif/X11CustomCursor(0xB598EFF8)
+3CLTEXTCLASS   			sun/misc/SoftCache$ValueCell(0xB59889D8)
+3CLTEXTCLASS   			[[C(0xB7FA7F28)
+3CLTEXTCLASS   			java/lang/CharSequence(0xB7FA0868)
+3CLTEXTCLASS   			java/awt/geom/Point2D(0xB536E1B8)
+3CLTEXTCLASS   			javax/swing/plaf/ColorUIResource(0xB54FC078)
+3CLTEXTCLASS   			java/lang/AssertionStatusDirectives(0xB54F62A8)
+3CLTEXTCLASS   			java/awt/event/WindowStateListener(0xB54F0D28)
+3CLTEXTCLASS   			java/util/LinkedList(0xB5987F28)
+3CLTEXTCLASS   			java/lang/reflect/Method(0xB7FA5928)
+3CLTEXTCLASS   			[F(0xB7FA23B8)
+3CLTEXTCLASS   			sun/reflect/FieldAccessorImpl(0xB7FA0BF8)
+3CLTEXTCLASS   			sun/awt/GlobalCursorManager$NativeUpdater(0xB51F0148)
+3CLTEXTCLASS   			java/awt/image/SampleModel(0xB536E418)
+3CLTEXTCLASS   			javax/swing/SystemEventQueueUtilities(0xB536D708)
+3CLTEXTCLASS   			sun/awt/im/InputMethodLocator(0xB5369E08)
+3CLTEXTCLASS   			sun/java2d/loops/GeneralRenderer(0xB53689D8)
+3CLTEXTCLASS   			java/awt/KeyboardFocusManager(0xB54F9BA8)
+3CLTEXTCLASS   			java/awt/MenuComponent(0xB54F8FC8)
+3CLTEXTCLASS   			[Ljava/lang/Class;(0xB7FAA9E8)
+3CLTEXTCLASS   			javax/swing/plaf/RootPaneUI(0xB54FF4B8)
+3CLTEXTCLASS   			java/util/Collections$UnmodifiableSet(0xB54FA788)
+3CLTEXTCLASS   			java/util/Hashtable$Enumerator(0xB5984168)
+3CLTEXTCLASS   			java/io/InputStream(0xB7FA9818)
+3CLTEXTCLASS   			sun/reflect/MethodAccessor(0xB7FA5598)
+3CLTEXTCLASS   			java/lang/String(0xB7FA0608)
+3CLTEXTCLASS   			sun/awt/image/WritableRasterNative(0xB536FD08)
+3CLTEXTCLASS   			sun/awt/image/ShortInterleavedRaster(0xB536E548)
+3CLTEXTCLASS   			sun/java2d/pipe/DuctusShapeRenderer(0xB5365B88)
+3CLTEXTCLASS   			sun/awt/color/ProfileActivator(0xB5364298)
+3CLTEXTCLASS   			javax/swing/plaf/metal/MetalLookAndFeel$MetalLazyValue(0xB54FCFE8)
+3CLTEXTCLASS   			java/awt/image/ImageObserver(0xB54F7348)
+3CLTEXTCLASS   			java/security/Provider(0xB54F1C98)
+3CLTEXTCLASS   			sun/io/ByteToCharISO8859_1(0xB5989BA8)
+3CLTEXTCLASS   			java/awt/Conditional(0xB51F0738)
+3CLTEXTCLASS   			java/awt/image/DataBuffer(0xB536DF58)
+3CLTEXTCLASS   			java/util/prefs/FileSystemPreferences$5(0xB536C8C8)
+3CLTEXTCLASS   			sun/awt/X11PMBlitLoops(0xB53669C8)
+3CLTEXTCLASS   			sun/security/provider/SelfPermission(0xB54F4FA8)
+3CLTEXTCLASS   			java/util/WeakHashMap(0xB598B238)
+3CLTEXTCLASS   			java/net/URLStreamHandler(0xB5982748)
+3CLTEXTCLASS   			[Ljava/lang/String;(0xB5982028)
+3CLTEXTCLASS   			java/security/PrivilegedAction(0xB7FA62A8)
+NULL           ------------------------------------------------------------------------
+0SECTION       Javadump End section
+1DGJDUMP       Javadump Buffer Usage Information
+NULL           =================================
+2DGJDUMPALLOC  Javadump buffer size (allocated): 2621440
+2DGJDUMPUSED   Javadump buffer size (used)     : 118874
+NULL           ---------------------- END OF DUMP -------------------------------------

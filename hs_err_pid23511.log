@@ -1,0 +1,146 @@
+
+Unexpected Signal : 11 occurred at PC=0x4023A727
+Function=JVM_handle_linux_signal+0x57
+Library=/opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/client/libjvm.so
+
+Current Java thread:
+
+Dynamic libraries:
+08048000-0804e000 r-xp 00000000 03:01 7042723    /opt/blackdown-jdk-1.4.2_rc1/jre/bin/java
+0804e000-08050000 rw-p 00005000 03:01 7042723    /opt/blackdown-jdk-1.4.2_rc1/jre/bin/java
+40023000-402d7000 r-xp 00000000 03:01 6643770    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/client/libjvm.so
+402d7000-402f0000 rw-p 002b4000 03:01 6643770    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/client/libjvm.so
+40302000-4030a000 r-xp 00000000 03:01 6643766    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/native_threads/libhpi.so
+4030a000-4030b000 rw-p 00007000 03:01 6643766    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/native_threads/libhpi.so
+4032c000-40334000 r-xp 00000000 03:01 8562082    /lib/libnss_files-2.3.3.so
+40334000-40335000 rw-p 00008000 03:01 8562082    /lib/libnss_files-2.3.3.so
+40335000-40343000 r-xp 00000000 03:01 6065764    /lib/libnss_ldap-2.3.2.so
+40343000-40344000 rw-p 0000e000 03:01 6065764    /lib/libnss_ldap-2.3.2.so
+4034e000-403b4000 r-xp 00000000 03:01 8793244    /usr/lib/libkrb5.so.3.2
+403b4000-403b6000 rw-p 00066000 03:01 8793244    /usr/lib/libkrb5.so.3.2
+404c2000-404c6000 rw-s 00000000 03:01 404305     /tmp/hsperfdata_u_neffge/23511
+404c6000-404d7000 r-xp 00000000 03:01 6643759    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libverify.so
+404d7000-404d8000 rw-p 00011000 03:01 6643759    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libverify.so
+404e3000-404e6000 r-xp 00000000 03:01 7823407    /lib/libnss_dns-2.3.3.so
+404e6000-404e7000 rw-p 00003000 03:01 7823407    /lib/libnss_dns-2.3.3.so
+404e7000-40506000 r-xp 00000000 03:01 6643776    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libjava.so
+40506000-40507000 rw-p 0001f000 03:01 6643776    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libjava.so
+40507000-40518000 r-xp 00000000 03:01 6643765    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libzip.so
+40518000-4051a000 rw-p 00011000 03:01 6643765    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libzip.so
+4051a000-41eb3000 r--s 00000000 03:01 6643950    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/rt.jar
+41efd000-41f13000 r--s 00000000 03:01 6643843    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/sunrsasign.jar
+41f13000-41fee000 r--s 00000000 03:01 6643816    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/jsse.jar
+41fee000-41fff000 r--s 00000000 03:01 6643888    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/jce.jar
+41fff000-42558000 r--s 00000000 03:01 6643819    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/charsets.jar
+44783000-44983000 r--p 00000000 03:01 7823347    /usr/lib/locale/locale-archive
+44983000-449ad000 r-xp 00000000 03:01 6643780    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libjdwp.so
+449ad000-449af000 rw-p 00029000 03:01 6643780    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libjdwp.so
+449b2000-449b5000 r-xp 00000000 03:01 6643786    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libdt_socket.so
+449b5000-449b6000 rw-p 00002000 03:01 6643786    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libdt_socket.so
+44d3e000-44d41000 r--s 00000000 03:01 6643750    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/ext/dnsns.jar
+44d41000-44d5d000 r--s 00000000 03:01 6643752    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/ext/sunjce_provider.jar
+44d5d000-44d6b000 r--s 00000000 03:01 6643753    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/ext/ldapsec.jar
+44d6b000-44e27000 r--s 00000000 03:01 6643826    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/ext/localedata.jar
+44e27000-44e45000 r--s 00000000 03:01 5895535    /usr/share/bluej/lib/junit.jar
+44e45000-44e48000 r--s 00000000 00:0e 1217242    /home/1800/u_neffge/private/java/test/simpleio2.jar
+44e48000-44e4a000 r--s 00000000 00:0e 1195926    /home/1800/u_neffge/public_html/java/SimpleInput.jar
+44e4a000-44e4d000 r--s 00000000 00:0e 707086     /home/1800/u_neffge/public_html/java/turtle.jar
+44e4d000-44f01000 r--s 00000000 03:01 695590     /usr/share/bluej/lib/bluejcore.jar
+44f01000-44f25000 r--s 00000000 03:01 5895533    /usr/share/bluej/lib/bluejeditor.jar
+44f25000-44f30000 r--s 00000000 03:01 5895506    /usr/share/bluej/lib/bluejext.jar
+44f30000-44f88000 r--s 00000000 03:01 5895381    /usr/share/bluej/lib/antlr.jar
+44f88000-44f89000 r--s 00000000 03:01 5895403    /usr/share/bluej/lib/MRJ141Stubs.jar
+44f89000-44f90000 r--s 00000000 03:01 5895505    /usr/share/bluej/lib/MRJToolkitStubs.zip
+44f90000-45469000 r--s 00000000 03:01 6645038    /opt/blackdown-jdk-1.4.2_rc1/lib/tools.jar
+45469000-4546f000 r--s 00000000 03:01 5895534    /usr/share/bluej/lib/bluej.jar
+454f0000-455cb000 r-xp 00000000 03:01 6643791    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libawt.so
+455cb000-455d4000 rw-p 000da000 03:01 6643791    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libawt.so
+455f8000-4565e000 r-xp 00000000 03:01 6643772    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libmlib_image.so
+4565e000-4565f000 rw-p 00066000 03:01 6643772    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libmlib_image.so
+4565f000-4588d000 r-xp 00000000 03:01 6643756    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libXm.so.3
+4588d000-458a7000 rw-p 0022e000 03:01 6643756    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libXm.so.3
+458a8000-458aa000 r-xp 00000000 03:01 5527100    /usr/X11R6/lib/X11/locale/lib/common/xlcDef.so.2
+458aa000-458ab000 rw-p 00001000 03:01 5527100    /usr/X11R6/lib/X11/locale/lib/common/xlcDef.so.2
+458c9000-4591c000 r-xp 00000000 03:01 98029      /usr/X11R6/lib/libXt.so.6.0
+4591c000-45920000 rw-p 00053000 03:01 98029      /usr/X11R6/lib/libXt.so.6.0
+45920000-45925000 r-xp 00000000 03:01 5196281    /usr/X11R6/lib/libXtst.so.6.1
+45925000-45926000 rw-p 00004000 03:01 5196281    /usr/X11R6/lib/libXtst.so.6.1
+45926000-45a02000 r-xp 00000000 03:01 7113579    /usr/X11R6/lib/libX11.so.6.2
+45a02000-45a05000 rw-p 000db000 03:01 7113579    /usr/X11R6/lib/libX11.so.6.2
+45a05000-45a07000 r-xp 00000000 03:01 98035      /usr/X11R6/lib/libXau.so.6.0
+45a07000-45a08000 rw-p 00001000 03:01 98035      /usr/X11R6/lib/libXau.so.6.0
+45a08000-45aa0000 r-xp 00000000 03:01 6643763    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libfontmanager.so
+45aa0000-45ab1000 rw-p 00097000 03:01 6643763    /opt/blackdown-jdk-1.4.2_rc1/jre/lib/i386/libfontmanager.so
+45ab1000-45acc000 r-xp 00000000 03:01 5527099    /usr/X11R6/lib/X11/locale/lib/common/ximcp.so.2
+45acc000-45ace000 rw-p 0001a000 03:01 5527099    /usr/X11R6/lib/X11/locale/lib/common/ximcp.so.2
+45aee000-45af4000 r--s 00000000 03:01 5641614    /usr/lib/gconv/gconv-modules.cache
+45af4000-45af6000 r-xp 00000000 03:01 7820765    /usr/lib/gconv/ISO8859-1.so
+45af6000-45af7000 rw-p 00001000 03:01 7820765    /usr/lib/gconv/ISO8859-1.so
+474ce000-474e2000 r-xp 00000000 03:01 69936      /lib/ld-2.3.3.so
+474e2000-474e3000 rw-p 00014000 03:01 69936      /lib/ld-2.3.3.so
+474e5000-475ee000 r-xp 00000000 03:01 5635587    /lib/libc-2.3.3.so
+475ee000-475f1000 rw-p 00109000 03:01 5635587    /lib/libc-2.3.3.so
+475f6000-47617000 r-xp 00000000 03:01 5639878    /lib/libm-2.3.3.so
+47617000-47618000 rw-p 00020000 03:01 5639878    /lib/libm-2.3.3.so
+4761a000-4761c000 r-xp 00000000 03:01 5639938    /lib/libdl-2.3.3.so
+4761c000-4761d000 rw-p 00002000 03:01 5639938    /lib/libdl-2.3.3.so
+47660000-47682000 r-xp 00000000 03:01 4535322    /usr/lib/libk5crypto.so.3.0
+47682000-47683000 rw-p 00022000 03:01 4535322    /usr/lib/libk5crypto.so.3.0
+4768b000-4769f000 r-xp 00000000 03:01 8793245    /usr/lib/libgssapi_krb5.so.2.2
+4769f000-476a0000 rw-p 00014000 03:01 8793245    /usr/lib/libgssapi_krb5.so.2.2
+47700000-47702000 r-xp 00000000 03:01 7530242    /usr/lib/libcom_err.so.3.0
+47702000-47703000 rw-p 00001000 03:01 7530242    /usr/lib/libcom_err.so.3.0
+47713000-47721000 r-xp 00000000 03:01 5648109    /lib/libpthread-0.61.so
+47721000-47722000 rw-p 0000e000 03:01 5648109    /lib/libpthread-0.61.so
+47726000-47735000 r-xp 00000000 03:01 7427986    /usr/X11R6/lib/libXext.so.6.4
+47735000-47736000 rw-p 0000e000 03:01 7427986    /usr/X11R6/lib/libXext.so.6.4
+47738000-4774b000 r-xp 00000000 03:01 6643604    /usr/X11R6/lib/libICE.so.6.3
+4774b000-4774d000 rw-p 00012000 03:01 6643604    /usr/X11R6/lib/libICE.so.6.3
+47750000-47758000 r-xp 00000000 03:01 7861171    /usr/X11R6/lib/libSM.so.6.0
+47758000-47759000 rw-p 00007000 03:01 7861171    /usr/X11R6/lib/libSM.so.6.0
+4782c000-47833000 r-xp 00000000 03:01 8067195    /usr/X11R6/lib/libXrender.so.1.2
+47833000-47834000 rw-p 00006000 03:01 8067195    /usr/X11R6/lib/libXrender.so.1.2
+47851000-4785a000 r-xp 00000000 03:01 8760181    /usr/X11R6/lib/libXcursor.so.1.0
+4785a000-4785b000 rw-p 00008000 03:01 8760181    /usr/X11R6/lib/libXcursor.so.1.0
+4785d000-47865000 r-xp 00000000 03:01 5640102    /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/libgcc_s.so.1
+47865000-47866000 rw-p 00007000 03:01 5640102    /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/libgcc_s.so.1
+4788b000-4794c000 r-xp 00000000 03:01 5648105    /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/libstdc++.so.5.0.6
+4794c000-47952000 rw-p 000c0000 03:01 5648105    /usr/lib/gcc-lib/i686-pc-linux-gnu/3.3.4/libstdc++.so.5.0.6
+47959000-47967000 r-xp 00000000 03:01 8760217    /lib/libresolv-2.3.3.so
+47967000-47968000 rw-p 0000e000 03:01 8760217    /lib/libresolv-2.3.3.so
+479b9000-479c0000 r-xp 00000000 03:01 8130034    /usr/X11R6/lib/libXp.so.6.2
+479c0000-479c1000 rw-p 00006000 03:01 8130034    /usr/X11R6/lib/libXp.so.6.2
+48198000-48282000 r-xp 00000000 03:01 8369740    /usr/lib/libcrypto.so.0.9.7
+48282000-48293000 rw-p 000ea000 03:01 8369740    /usr/lib/libcrypto.so.0.9.7
+48299000-482a4000 r-xp 00000000 03:01 236479     /usr/lib/liblber.so.2.0.130
+482a4000-482a5000 rw-p 0000b000 03:01 236479     /usr/lib/liblber.so.2.0.130
+482a7000-482da000 r-xp 00000000 03:01 8793230    /usr/lib/libldap.so.2.0.130
+482da000-482db000 rw-p 00033000 03:01 8793230    /usr/lib/libldap.so.2.0.130
+484f8000-48526000 r-xp 00000000 03:01 8446638    /usr/lib/libssl.so.0.9.7
+48526000-48529000 rw-p 0002d000 03:01 8446638    /usr/lib/libssl.so.0.9.7
+4852b000-4853d000 r-xp 00000000 03:01 4582046    /lib/libnsl-2.3.3.so
+4853d000-4853e000 rw-p 00011000 03:01 4582046    /lib/libnsl-2.3.3.so
+48c1b000-48cdf000 r-xp 00000000 03:01 5883943    /usr/lib/libdb-4.1.so
+48cdf000-48ce2000 rw-p 000c3000 03:01 5883943    /usr/lib/libdb-4.1.so
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 112K [0x48cf0000, 0x48d90000, 0x491d0000)
+  eden space 512K,   9% used [0x48cf0000, 0x48cfc020, 0x48d70000)
+  from space 64K, 100% used [0x48d70000, 0x48d80000, 0x48d80000)
+  to   space 64K,   0% used [0x48d80000, 0x48d80000, 0x48d90000)
+ tenured generation   total 1408K, used 205K [0x491d0000, 0x49330000, 0x4ccf0000)
+   the space 1408K,  14% used [0x491d0000, 0x49203588, 0x49203600, 0x49330000)
+ compacting perm gen  total 4096K, used 1925K [0x4ccf0000, 0x4d0f0000, 0x50cf0000)
+   the space 4096K,  47% used [0x4ccf0000, 0x4ced16d8, 0x4ced1800, 0x4d0f0000)
+
+Local Time = Fri Sep 10 13:09:36 2004
+Elapsed Time = 405
+#
+# HotSpot Virtual Machine Error : 11
+# Error ID : 4F530E43505002EF
+# Please report this error at
+# http://www.blackdown.org/cgi-bin/jdk
+#
+# Java VM: Java HotSpot(TM) Client VM (Blackdown-1.4.2-rc1 mixed mode)
+#
